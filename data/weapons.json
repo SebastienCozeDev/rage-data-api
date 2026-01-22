@@ -1,0 +1,487 @@
+[
+  {
+    "name": "WEAPON_DAGGER",
+    "type": "melee",
+    "hash": "0x92A27487"
+  },
+  {
+    "name": "WEAPON_BAT",
+    "type": "melee",
+    "hash": "0x958A4A8F"
+  },
+  {
+    "name": "WEAPON_BOTTLE",
+    "type": "melee",
+    "hash": "0xF9E6AA4B"
+  },
+  {
+    "name": "WEAPON_CROWBAR",
+    "type": "melee",
+    "hash": "0x84BD7BFD"
+  },
+  {
+    "name": "WEAPON_UNARMED",
+    "type": "melee",
+    "hash": "0xA2719263"
+  },
+  {
+    "name": "WEAPON_FLASHLIGHT",
+    "type": "melee",
+    "hash": "0x8BB05FD7"
+  },
+  {
+    "name": "WEAPON_GOLFCLUB",
+    "type": "melee",
+    "hash": "0x440E4788"
+  },
+  {
+    "name": "WEAPON_HAMMER",
+    "type": "melee",
+    "hash": "0x4E875F73"
+  },
+  {
+    "name": "WEAPON_HATCHET",
+    "type": "melee",
+    "hash": "0xF9DCBF2D"
+  },
+  {
+    "name": "WEAPON_KNUCKLE",
+    "type": "melee",
+    "hash": "0xD8DF3C3C"
+  },
+  {
+    "name": "WEAPON_KNIFE",
+    "type": "melee",
+    "hash": "0x99B507EA"
+  },
+  {
+    "name": "WEAPON_MACHETE",
+    "type": "melee",
+    "hash": "0xDD5DF8D9"
+  },
+  {
+    "name": "WEAPON_SWITCHBLADE",
+    "type": "melee",
+    "hash": "0xDFE37640"
+  },
+  {
+    "name": "WEAPON_NIGHTSTICK",
+    "type": "melee",
+    "hash": "0x678B81B1"
+  },
+  {
+    "name": "WEAPON_WRENCH",
+    "type": "melee",
+    "hash": "0x19044EE0"
+  },
+  {
+    "name": "WEAPON_BATTLEAXE",
+    "type": "melee",
+    "hash": "0xCD274149"
+  },
+  {
+    "name": "WEAPON_POOLCUE",
+    "type": "melee",
+    "hash": "0x94117305"
+  },
+  {
+    "name": "WEAPON_STONE_HATCHET",
+    "type": "melee",
+    "hash": "0x3813FC08"
+  },
+  {
+    "name": "WEAPON_WEAPON_CANDYCANE",
+    "type": "melee",
+    "hash": "0x6589186A"
+  },
+  {
+    "name": "WEAPON_WEAPON_STUNROD",
+    "type": "melee",
+    "hash": "0xDAC00025"
+  },
+  {
+    "name": "WEAPON_PISTOL",
+    "type": "handguns",
+    "hash": "0x1B06D571"
+  },
+  {
+    "name": "WEAPON_PISTOL_MK2",
+    "type": "handguns",
+    "hash": "0xBFE256D4"
+  },
+  {
+    "name": "WEAPON_COMBATPISTOL",
+    "type": "handguns",
+    "hash": "0x5EF9FEC4"
+  },
+  {
+    "name": "WEAPON_APPISTOL",
+    "type": "handguns",
+    "hash": "0x22D8FE39"
+  },
+  {
+    "name": "WEAPON_STUNGUN",
+    "type": "handguns",
+    "hash": "0x3656C8C1"
+  },
+  {
+    "name": "WEAPON_PISTOL50",
+    "type": "handguns",
+    "hash": "0x99AEEB3B"
+  },
+  {
+    "name": "WEAPON_SNSPISTOL",
+    "type": "handguns",
+    "hash": "0xBFD21232"
+  },
+  {
+    "name": "WEAPON_SNSPISTOL_MK2",
+    "type": "handguns",
+    "hash": "0x88374054"
+  },
+  {
+    "name": "WEAPON_HEAVYPISTOL",
+    "type": "handguns",
+    "hash": "0xD205520E"
+  },
+  {
+    "name": "WEAPON_VINTAGEPISTOL",
+    "type": "handguns",
+    "hash": "0x83839C4"
+  },
+  {
+    "name": "WEAPON_FLAREGUN",
+    "type": "handguns",
+    "hash": "0x47757124"
+  },
+  {
+    "name": "WEAPON_MARKSMANPISTOL",
+    "type": "handguns",
+    "hash": "0xDC4DB296"
+  },
+  {
+    "name": "WEAPON_REVOLVER",
+    "type": "handguns",
+    "hash": "0xC1B3C3D1"
+  },
+  {
+    "name": "WEAPON_REVOLVER_MK2",
+    "type": "handguns",
+    "hash": "0xCB96392F"
+  },
+  {
+    "name": "WEAPON_DOUBLEACTION",
+    "type": "handguns",
+    "hash": "0x97EA20B8"
+  },
+  {
+    "name": "WEAPON_RAYPISTOL",
+    "type": "handguns",
+    "hash": "0xAF3696A1"
+  },
+  {
+    "name": "WEAPON_CERAMICPISTOL",
+    "type": "handguns",
+    "hash": "0x2B5EF5EC"
+  },
+  {
+    "name": "WEAPON_NAVYREVOLVER",
+    "type": "handguns",
+    "hash": "0x917F6C8C"
+  },
+  {
+    "name": "WEAPON_MICROSMG",
+    "type": "smg",
+    "hash": "0x13532244"
+  },
+  {
+    "name": "WEAPON_SMG",
+    "type": "smg",
+    "hash": "0x2BE6766B"
+  },
+  {
+    "name": "WEAPON_SMG_MK2",
+    "type": "smg",
+    "hash": "0x78A97CD0"
+  },
+  {
+    "name": "WEAPON_ASSAULTSMG",
+    "type": "smg",
+    "hash": "0xEFE7E2DF"
+  },
+  {
+    "name": "WEAPON_COMBATPDW",
+    "type": "smg",
+    "hash": "0xA3D4D34"
+  },
+  {
+    "name": "WEAPON_MACHINEPISTOL",
+    "type": "smg",
+    "hash": "0xDB1AA450"
+  },
+  {
+    "name": "WEAPON_MINISMG",
+    "type": "smg",
+    "hash": "0xBD248B55"
+  },
+  {
+    "name": "WEAPON_RAYCARBINE",
+    "type": "smg",
+    "hash": "0x476BF155"
+  },
+  {
+    "name": "WEAPON_PUMPSHOTGUN",
+    "type": "shotguns",
+    "hash": "0x1D073A89"
+  },
+  {
+    "name": "WEAPON_PUMPSHOTGUN_MK2",
+    "type": "shotguns",
+    "hash": "0x555AF99A"
+  },
+  {
+    "name": "WEAPON_SAWNOFFSHOTGUN",
+    "type": "shotguns",
+    "hash": "0x7846A318"
+  },
+  {
+    "name": "WEAPON_ASSAULTSHOTGUN",
+    "type": "shotguns",
+    "hash": "0xE284C527"
+  },
+  {
+    "name": "WEAPON_BULLPUPSHOTGUN",
+    "type": "shotguns",
+    "hash": "0x9D61E50F"
+  },
+  {
+    "name": "WEAPON_HEAVYSHOTGUN",
+    "type": "shotguns",
+    "hash": "0x3AABBBAA"
+  },
+  {
+    "name": "WEAPON_DBSHOTGUN",
+    "type": "shotguns",
+    "hash": "0xEF951FBB"
+  },
+  {
+    "name": "WEAPON_AUTOSHOTGUN",
+    "type": "shotguns",
+    "hash": "0x12E82D3D"
+  },
+  {
+    "name": "WEAPON_ASSAULTRIFLE",
+    "type": "assault_rifles",
+    "hash": "0xBFEFFF6D"
+  },
+  {
+    "name": "WEAPON_ASSAULTRIFLE_MK2",
+    "type": "assault_rifles",
+    "hash": "0x394F415C"
+  },
+  {
+    "name": "WEAPON_CARBINERIFLE",
+    "type": "assault_rifles",
+    "hash": "0x83BF0278"
+  },
+  {
+    "name": "WEAPON_CARBINERIFLE_MK2",
+    "type": "assault_rifles",
+    "hash": "0xFAD1F1C9"
+  },
+  {
+    "name": "WEAPON_ADVANCEDRIFLE",
+    "type": "assault_rifles",
+    "hash": "0xAF113F99"
+  },
+  {
+    "name": "WEAPON_SPECIALCARBINE",
+    "type": "assault_rifles",
+    "hash": "0xC0A3098D"
+  },
+  {
+    "name": "WEAPON_SPECIALCARBINE_MK2",
+    "type": "assault_rifles",
+    "hash": "0x969C3D67"
+  },
+  {
+    "name": "WEAPON_BULLPUPRIFLE",
+    "type": "assault_rifles",
+    "hash": "0x7F229F94"
+  },
+  {
+    "name": "WEAPON_BULLPUPRIFLE_MK2",
+    "type": "assault_rifles",
+    "hash": "0x84D6FAFD"
+  },
+  {
+    "name": "WEAPON_COMPACTRIFLE",
+    "type": "assault_rifles",
+    "hash": "0x624FE830"
+  },
+  {
+    "name": "WEAPON_MG",
+    "type": "machine_guns",
+    "hash": "0x9D07F764"
+  },
+  {
+    "name": "WEAPON_COMBATMG",
+    "type": "machine_guns",
+    "hash": "0x7FD62962"
+  },
+  {
+    "name": "WEAPON_COMBATMG_MK2",
+    "type": "machine_guns",
+    "hash": "0xDBBD7280"
+  },
+  {
+    "name": "WEAPON_GUSENBERG",
+    "type": "machine_guns",
+    "hash": "0x61012683"
+  },
+  {
+    "name": "WEAPON_SNIPERRIFLE",
+    "type": "sniper_rifles",
+    "hash": "0x5FC3C11"
+  },
+  {
+    "name": "WEAPON_HEAVYSNIPER",
+    "type": "sniper_rifles",
+    "hash": "0xC472FE2"
+  },
+  {
+    "name": "WEAPON_HEAVYSNIPER_MK2",
+    "type": "sniper_rifles",
+    "hash": "0xA914799"
+  },
+  {
+    "name": "WEAPON_MARKSMANRIFLE",
+    "type": "sniper_rifles",
+    "hash": "0xC734385A"
+  },
+  {
+    "name": "WEAPON_MARKSMANRIFLE_MK2",
+    "type": "sniper_rifles",
+    "hash": "0x6A6C02E0"
+  },
+  {
+    "name": "WEAPON_MUSKET",
+    "type": "sniper_rifles",
+    "hash": "0xA89CB99E"
+  },
+  {
+    "name": "WEAPON_RPG",
+    "type": "heavy_weapons",
+    "hash": "0xB1CA77B1"
+  },
+  {
+    "name": "WEAPON_GRENADELAUNCHER",
+    "type": "heavy_weapons",
+    "hash": "0xA284510B"
+  },
+  {
+    "name": "WEAPON_GRENADELAUNCHER_SMOKE",
+    "type": "heavy_weapons",
+    "hash": "0x4DD2DC56"
+  },
+  {
+    "name": "WEAPON_MINIGUN",
+    "type": "heavy_weapons",
+    "hash": "0x42BF8A85"
+  },
+  {
+    "name": "WEAPON_FIREWORK",
+    "type": "heavy_weapons",
+    "hash": "0x7F7497E5"
+  },
+  {
+    "name": "WEAPON_RAILGUN",
+    "type": "heavy_weapons",
+    "hash": "0x6D544C99"
+  },
+  {
+    "name": "WEAPON_HOMINGLAUNCHER",
+    "type": "heavy_weapons",
+    "hash": "0x63AB0442"
+  },
+  {
+    "name": "WEAPON_COMPACTLAUNCHER",
+    "type": "heavy_weapons",
+    "hash": "0x781FE4A"
+  },
+  {
+    "name": "WEAPON_RAYMINIGUN",
+    "type": "heavy_weapons",
+    "hash": "0xB62D1F67"
+  },
+  {
+    "name": "WEAPON_GRENADE",
+    "type": "throwables",
+    "hash": "0x93E220BD"
+  },
+  {
+    "name": "WEAPON_BZGAS",
+    "type": "throwables",
+    "hash": "0xA0973D5E"
+  },
+  {
+    "name": "WEAPON_SMOKEGRENADE",
+    "type": "throwables",
+    "hash": "0xFDBC8A50"
+  },
+  {
+    "name": "WEAPON_FLARE",
+    "type": "throwables",
+    "hash": "0x497FACC3"
+  },
+  {
+    "name": "WEAPON_MOLOTOV",
+    "type": "throwables",
+    "hash": "0x24B17070"
+  },
+  {
+    "name": "WEAPON_STICKYBOMB",
+    "type": "throwables",
+    "hash": "0x2C3731D9"
+  },
+  {
+    "name": "WEAPON_PROXMINE",
+    "type": "throwables",
+    "hash": "0xAB564B93"
+  },
+  {
+    "name": "WEAPON_SNOWBALL",
+    "type": "throwables",
+    "hash": "0x787F0BB"
+  },
+  {
+    "name": "WEAPON_PIPEBOMB",
+    "type": "throwables",
+    "hash": "0xBA45E8B8"
+  },
+  {
+    "name": "WEAPON_BALL",
+    "type": "throwables",
+    "hash": "0x23C9F95C"
+  },
+  {
+    "name": "WEAPON_PETROLCAN",
+    "type": "misc",
+    "hash": "0x34A67B97"
+  },
+  {
+    "name": "WEAPON_FIREEXTINGUISHER",
+    "type": "misc",
+    "hash": "0x60EC506"
+  },
+  {
+    "name": "WEAPON_PARACHUTE",
+    "type": "misc",
+    "hash": "0xFBAB5776"
+  },
+  {
+    "name": "WEAPON_HAZARDCAN",
+    "type": "misc",
+    "hash": "0xBA536372"
+  }
+]
