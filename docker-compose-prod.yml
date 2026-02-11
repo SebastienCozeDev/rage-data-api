@@ -1,0 +1,26 @@
+services:
+  rage-fastapi:
+    build: .
+    container_name: rage-fastapi
+    restart: always
+    networks:
+      - internal
+      - web
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=shared-web"
+      - "traefik.http.routers.rage-data-api.rule=Host(`api.rage-data.cozedev.com`)"
+      - "traefik.http.routers.rage-data-api.entrypoints=websecure"
+      - "traefik.http.routers.rage-data-api.tls.certresolver=myresolver"
+      - "traefik.http.routers.rage-data-api.service=rage-data-api-service"
+      - "traefik.http.services.rage-data-api-service.loadbalancer.server.port=8000"
+      - "traefik.http.routers.rage-data-api-http.rule=Host(`api.rage-data.cozedev.com`)"
+      - "traefik.http.routers.rage-data-api-http.entrypoints=web"
+      - "traefik.http.routers.rage-data-api-http.middlewares=to-https"
+      - "traefik.http.middlewares.to-https.redirectscheme.scheme=https"
+      - "traefik.http.middlewares.to-https.redirectscheme.permanent=true"
+
+networks:
+  web:
+    external: true
+    name: shared-web
