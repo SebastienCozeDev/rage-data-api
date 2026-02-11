@@ -1,0 +1,6 @@
+services:
+  rage-fastapi:
+    build: .
+    container_name: rage-fastapi
+    ports:
+      - "8000:80"
