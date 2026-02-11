@@ -19,5 +19,5 @@ bash:	## Open a bash shell in the web container
 run:	## Start the Docker containers
 	docker compose up
 
-make stop:	## Stop the Docker containers
+stop:	## Stop the Docker containers
 	docker compose down
