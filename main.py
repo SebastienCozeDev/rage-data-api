@@ -1,8 +1,7 @@
-from typing import Union, List
+from typing import List
 
 from fastapi import Depends
 from fastapi import FastAPI
-import json
 
 from import_data.importer import Importer, import_weapons
 from models import BlipModels, BlipColor, Markers, PedModels, Weapons
@@ -20,7 +19,7 @@ app = FastAPI(
     title="RAGE Data API",
     description="An API to access RAGE data such as blip models, colors, markers, ped models, and weapons.",
     summary="An API for RAGE data retrieval.",
-    version="0.1.0-beta.1",
+    version="0.1.0-beta.2",
     openapi_tags=tags_metadata,
     docs_url="/",
     redoc_url="/redoc",
