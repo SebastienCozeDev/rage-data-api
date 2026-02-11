@@ -1,10 +1,13 @@
 from typing import Union, List
 
+from fastapi import Depends
 from fastapi import FastAPI
 import json
 
 from import_data.importer import Importer, import_weapons
 from models import BlipModels, BlipColor, Markers, PedModels, Weapons
+from services import get_blip_colors, get_blip_models, get_markers, get_model, get_ped_models, get_weapons
+
 
 tags_metadata = [
     {
@@ -24,25 +27,14 @@ app = FastAPI(
 )
 
 
-def read_model(model_name: str, **kwargs) -> Union[List[BlipModels], List[BlipColor], List[Markers], List[PedModels], List[Weapons]]:
-    try:
-        with open(f"data/{model_name}.json", "r") as f:
-            data = json.load(f)
-    except FileNotFoundError:
-        data = {"error": "Model not found"}
-    if kwargs:
-        data = [model for model in data if all(key in model and model[key] == value for key, value in kwargs.items())]
-    return data
-
-
 @app.get(
     "/blip_colors",
     tags=["Models"],
     summary="Retrieve blip colors data",
     description="Fetches and returns the JSON data for blip colors models.",
 )
-def read_blip_colors() -> List[BlipColor]:
-    return read_model("blip_colors")
+def read_blip_colors(result = Depends(get_blip_colors)) -> List[BlipColor]:
+    return result
 
 
 @app.get(
@@ -51,11 +43,9 @@ def read_blip_colors() -> List[BlipColor]:
     summary="Retrieve blip models data",
     description="Fetches and returns the JSON data for blip models.",
 )
-def read_blip_models(id: int = None) -> List[BlipModels]:
-    kwargs = {}
-    if id is not None:
-        kwargs["id"] = id
-    return read_model("blip_models", **kwargs)
+def read_blip_models(result = Depends(get_blip_models)) -> List[BlipModels]:
+    return result
+
 
 @app.get(
     "/markers",
@@ -63,11 +53,9 @@ def read_blip_models(id: int = None) -> List[BlipModels]:
     summary="Retrieve markers data",
     description="Fetches and returns the JSON data for markers.",
 )
-def read_markers(id: int = None) -> List[Markers]:
-    kwargs = {}
-    if id is not None:
-        kwargs["id"] = id
-    return read_model("markers", **kwargs)
+def read_markers(result = Depends(get_markers)) -> List[Markers]:
+    return result
+
 
 @app.get(
     "/ped_models",
@@ -75,13 +63,9 @@ def read_markers(id: int = None) -> List[Markers]:
     summary="Retrieve ped models data",
     description="Fetches and returns the JSON data for ped models.",
 )
-def read_ped_models(name: str = None, hash: str = None) -> List[PedModels]:
-    kwargs = {}
-    if name is not None:
-        kwargs["name"] = name
-    if hash is not None:
-        kwargs["hash"] = hash
-    return read_model("ped_models", **kwargs)
+def read_ped_models(result = Depends(get_ped_models)) -> List[PedModels]:
+    return result
+
 
 @app.get(
     "/weapons",
@@ -89,15 +73,9 @@ def read_ped_models(name: str = None, hash: str = None) -> List[PedModels]:
     summary="Retrieve weapons data",
     description="Fetches and returns the JSON data for weapons models.",
 )
-def read_weapons(type: str = None, name: str = None, hash: str = None) -> List[Weapons]:
-    kwargs = {}
-    if type is not None:
-        kwargs["type"] = type
-    if name is not None:
-        kwargs["name"] = name
-    if hash is not None:
-        kwargs["hash"] = hash
-    return read_model("weapons", **kwargs)
+def read_weapons(result = Depends(get_weapons)) -> List[Weapons]:
+    return result
+
 
 @app.get(
     "/health",
