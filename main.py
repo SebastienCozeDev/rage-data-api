@@ -14,9 +14,9 @@ tags_metadata = [
 ]
 
 app = FastAPI(
-    title="GTA5 Models API",
-    description="An API to access GTA5 model data such as blip models, colors, markers, ped models, and weapons.",
-    summary="An API for GTA5 model data retrieval.",
+    title="RAGE Data API",
+    description="An API to access RAGE data such as blip models, colors, markers, ped models, and weapons.",
+    summary="An API for RAGE data retrieval.",
     version="0.1.0-beta.1",
     openapi_tags=tags_metadata,
     docs_url="/",
