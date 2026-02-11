@@ -99,6 +99,15 @@ def read_weapons(type: str = None, name: str = None, hash: str = None) -> List[W
         kwargs["hash"] = hash
     return read_model("weapons", **kwargs)
 
+@app.get(
+    "/health",
+    tags=["Health"],
+    summary="Retrieve the server status",
+    description="Fetches and returns the JSON data for server status",
+)
+def health():
+    return {"status": "ok"}
+
 
 if __name__ == "__main__":
     print("Importing data...")
@@ -107,4 +116,3 @@ if __name__ == "__main__":
     Importer("markers").import_data()
     Importer("ped_models").import_data()
     import_weapons()
-
