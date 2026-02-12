@@ -1,14 +1,29 @@
+"""
+This file contains the Importer class.
+"""
+
 import json
 import re
 from bs4 import BeautifulSoup
 from import_data.html_json import get_html_content, save_data_to_json
 
+
 class Importer:
+    """
+    This class is used to import all models data with source files. Data is saved in JSON files.
+    """
+
     def __init__(self, model_name):
+        """
+        Initialize the instance of Importer.
+        """
         self.model_name = model_name
 
     @staticmethod
     def extract_id(item, blip_data):
+        """
+        Extract the identifier.
+        """
         gallerytext = item.find("div", class_="gallerytext")
         if gallerytext:
             id_match = re.search(r"ID:\s*(\d+)", gallerytext.get_text())
@@ -17,12 +32,15 @@ class Importer:
 
     @staticmethod
     def extract_name_and_hash(item, blip_data):
+        """
+        Extract the name and the hash.
+        """
         gallerytext = item.find("div", class_="gallerytext")
         if gallerytext:
             text = gallerytext.get_text(separator="\n")
             name_match = re.search(r"Name:\s*([^\n]+)", text)
             hash_match = re.search(r"Hash:\s*(0x[0-9A-Fa-f]+)", text)
-            
+
             if name_match:
                 blip_data["name"] = name_match.group(1).strip()
             if hash_match:
@@ -31,12 +49,18 @@ class Importer:
 
     @staticmethod
     def extract_image_link(item, blip_data):
+        """
+        Extract the image link.
+        """
         img_tag = item.find("img")
         if img_tag and "src" in img_tag.attrs:
             blip_data["image_link"] = f"https://wiki.rage.mp{img_tag['src']}"
 
     @staticmethod
     def extract_id_from_figcaption(item, blip_data):
+        """
+        Extract the identifier from a figcaption tag.
+        """
         figcaption = item.find("figcaption")
         if figcaption:
             id_match = re.search(r"ID:\s*(\d+)", figcaption.get_text())
@@ -45,22 +69,28 @@ class Importer:
 
     @staticmethod
     def extract_image_link_from_figure(item, blip_data):
+        """
+        Extract the image link from a figure tag.
+        """
         img_tag = item.find("img")
         if img_tag and "src" in img_tag.attrs:
             blip_data["image_link"] = f"https://wiki.rage.mp{img_tag['src']}"
 
     def import_data(self):
+        """
+        Import all model data with source files.
+        """
         soup = BeautifulSoup(get_html_content(f"html_and_json_sources/{self.model_name}.html"), "html.parser")
         blips = []
 
         # Try gallery format first (blip_colors or ped_models)
         gallery_items = soup.find_all("li", class_="gallerybox")
-        
+
         if gallery_items:
             # Check if it's ped_models format (has name and hash)
             first_item = gallery_items[0]
             gallerytext = first_item.find("div", class_="gallerytext")
-            
+
             if gallerytext and "Name:" in gallerytext.get_text():
                 # ped_models format
                 for item in gallery_items:
@@ -91,6 +121,9 @@ class Importer:
 
 
 def import_weapons():
+    """
+    Import the weapons with weapons.json file.
+    """
     with open('html_and_json_sources/weapons.json', 'r', encoding='utf-8') as f:
         weapons_by_type = json.load(f)
     result = []

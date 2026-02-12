@@ -1,22 +1,26 @@
+"""
+This file contains all services for the application.
+"""
+
 import json
 from typing import List, Union
 from fastapi import Depends, status, HTTPException
-from models import BlipColor, BlipModels, Markers, PedModels, Weapons
+from models import BlipColor, BlipModel, Marker, PedModel, Weapon
 
 
-def get_model(model_name: str, filters) -> Union[List[BlipModels], List[BlipColor], List[Markers], List[PedModels], List[Weapons]]:
+def get_model(model_name: str, filters) -> Union[List[BlipModel], List[BlipColor], List[Marker], List[PedModel], List[Weapon]]:
     """
     Get model from JSON file.
     """
     try:
-        with open(f"data/{model_name}.json", "r") as f:
+        with open(f"data/{model_name}.json", "r", encoding="utf-8") as f:
             data = json.load(f)
     except FileNotFoundError:
         data = {"error": "Model not found"}
     if filters:
         data = [model for model in data if all(key in model and model[key] == value for key, value in filters.items())]
     if len(data) <= 0:
-        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail=f"No model founded")
+        raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No model founded")
     return data
 
 def get_model_with_id(id: int = None):
@@ -66,14 +70,14 @@ def get_blip_colors(filters = Depends(get_model_with_id)) -> List[BlipColor]:
     return get_model("blip_colors", filters)
 
 
-def get_blip_models(filters = Depends(get_model_with_id)) -> List[BlipModels]:
+def get_blip_models(filters = Depends(get_model_with_id)) -> List[BlipModel]:
     """
     Get filtered or not blip models.
     """
     return get_model("blip_colors", filters)
 
 
-def get_markers(filters = Depends(get_model_with_id)) -> List[Markers]:
+def get_markers(filters = Depends(get_model_with_id)) -> List[Marker]:
     """
     Get filtered or not markers.
     """
@@ -83,7 +87,7 @@ def get_markers(filters = Depends(get_model_with_id)) -> List[Markers]:
 def get_ped_models(
     name_filter = Depends(get_model_with_name),
     hash_filter = Depends(get_model_with_hash),
-) -> List[PedModels]:
+) -> List[PedModel]:
     """
     Get filtered or not ped models.
     """
@@ -100,7 +104,7 @@ def get_weapons(
     name_filter = Depends(get_model_with_name),
     hash_filter = Depends(get_model_with_hash),
     type_filter = Depends(get_model_with_type),
-):
+) -> List[Weapon]:
     """
     Get filtered or not weapons.
     """

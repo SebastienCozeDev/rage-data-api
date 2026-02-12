@@ -1,11 +1,16 @@
+"""
+This file is the main file of the application. It is used to run the application or create the JSON data files.
+"""
+
+
 from typing import List
 
 from fastapi import Depends
 from fastapi import FastAPI
 
 from import_data.importer import Importer, import_weapons
-from models import BlipModels, BlipColor, Markers, PedModels, Weapons
-from services import get_blip_colors, get_blip_models, get_markers, get_model, get_ped_models, get_weapons
+from models import BlipModel, BlipColor, Marker, PedModel, Weapon
+from services import get_blip_colors, get_blip_models, get_markers, get_ped_models, get_weapons
 
 
 tags_metadata = [
@@ -33,6 +38,9 @@ app = FastAPI(
     description="Fetches and returns the JSON data for blip colors models.",
 )
 def read_blip_colors(result = Depends(get_blip_colors)) -> List[BlipColor]:
+    """
+    Endpoint to get the blip colors.
+    """
     return result
 
 
@@ -42,7 +50,10 @@ def read_blip_colors(result = Depends(get_blip_colors)) -> List[BlipColor]:
     summary="Retrieve blip models data",
     description="Fetches and returns the JSON data for blip models.",
 )
-def read_blip_models(result = Depends(get_blip_models)) -> List[BlipModels]:
+def read_blip_models(result = Depends(get_blip_models)) -> List[BlipModel]:
+    """
+    Endpoint to get the blip models.
+    """
     return result
 
 
@@ -52,7 +63,10 @@ def read_blip_models(result = Depends(get_blip_models)) -> List[BlipModels]:
     summary="Retrieve markers data",
     description="Fetches and returns the JSON data for markers.",
 )
-def read_markers(result = Depends(get_markers)) -> List[Markers]:
+def read_markers(result = Depends(get_markers)) -> List[Marker]:
+    """
+    Endpoint to get the markers.
+    """
     return result
 
 
@@ -62,7 +76,10 @@ def read_markers(result = Depends(get_markers)) -> List[Markers]:
     summary="Retrieve ped models data",
     description="Fetches and returns the JSON data for ped models.",
 )
-def read_ped_models(result = Depends(get_ped_models)) -> List[PedModels]:
+def read_ped_models(result = Depends(get_ped_models)) -> List[PedModel]:
+    """
+    Endpoint to get the ped models.
+    """
     return result
 
 
@@ -72,7 +89,10 @@ def read_ped_models(result = Depends(get_ped_models)) -> List[PedModels]:
     summary="Retrieve weapons data",
     description="Fetches and returns the JSON data for weapons models.",
 )
-def read_weapons(result = Depends(get_weapons)) -> List[Weapons]:
+def read_weapons(result = Depends(get_weapons)) -> List[Weapon]:
+    """
+    Endpoint to get the weapons.
+    """
     return result
 
 
@@ -83,6 +103,9 @@ def read_weapons(result = Depends(get_weapons)) -> List[Weapons]:
     description="Fetches and returns the JSON data for server status",
 )
 def health():
+    """
+    Endpoint to get the server status.
+    """
     return {"status": "ok"}
 
 
