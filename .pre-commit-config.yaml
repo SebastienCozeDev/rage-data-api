@@ -1,0 +1,6 @@
+repos:
+  - repo: https://github.com/pycqa/pylint
+    rev: v4.0.4
+    hooks:
+      - id: pylint
+        args: ["--disable=C0301,R0801,R0903,R0913,R0917,W0622,W0707"]

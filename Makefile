@@ -21,3 +21,8 @@ run:	## Start the Docker containers
 
 stop:	## Stop the Docker containers
 	docker compose down
+
+init-pre-commit:	## Init pre-commit
+	pip install -r requirements-dev.txt
+	pre-commit install
+	pre-commit run --all-files
