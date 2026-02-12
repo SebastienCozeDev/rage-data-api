@@ -24,5 +24,6 @@ stop:	## Stop the Docker containers
 
 init-pre-commit:	## Init pre-commit
 	pip install -r requirements-dev.txt
+	pre-commit clean
 	pre-commit install
 	pre-commit run --all-files
