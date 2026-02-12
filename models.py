@@ -1,10 +1,17 @@
+"""
+This file contains all models for the application.
+"""
+
+
 from pydantic import Field
 from pydantic.dataclasses import dataclass
-from typing import Literal
 
 
 @dataclass
 class IdAndImageLink:
+    """
+    Template model class which use id and image link.
+    """
     id: int = Field(
         description="Unique identifier for the model",
         example=1,
@@ -18,21 +25,30 @@ class IdAndImageLink:
 
 @dataclass
 class BlipColor(IdAndImageLink):
-    ...
+    """
+    Blip color model.
+    """
 
 
 @dataclass
-class BlipModels(IdAndImageLink):
-    ...
+class BlipModel(IdAndImageLink):
+    """
+    Blip model model.
+    """
 
 
 @dataclass
-class Markers(IdAndImageLink):
-    ...
+class Marker(IdAndImageLink):
+    """
+    Marker model.
+    """
 
 
 @dataclass
-class PedModels:
+class PedModel:
+    """
+    Ped model model.
+    """
     name: str = Field(
         description="Name of the ped model",
         example="player_zero"
@@ -48,7 +64,10 @@ class PedModels:
 
 
 @dataclass
-class Weapons:
+class Weapon:
+    """
+    Weapon model.
+    """
     name: str = Field(
         description="Name of the weapon",
         example="WEAPON_DAGGER",
