@@ -13,7 +13,7 @@ services:
       - "traefik.http.routers.rage-data-api.entrypoints=websecure"
       - "traefik.http.routers.rage-data-api.tls.certresolver=myresolver"
       - "traefik.http.routers.rage-data-api.service=rage-data-api-service"
-      - "traefik.http.services.rage-data-api-service.loadbalancer.server.port=8000"
+      - "traefik.http.services.rage-data-api-service.loadbalancer.server.port=80"
       - "traefik.http.routers.rage-data-api-http.rule=Host(`api.rage-data.cozedev.com`)"
       - "traefik.http.routers.rage-data-api-http.entrypoints=web"
       - "traefik.http.routers.rage-data-api-http.middlewares=to-https"
@@ -21,6 +21,9 @@ services:
       - "traefik.http.middlewares.to-https.redirectscheme.permanent=true"
 
 networks:
+  internal:
+    external: true
+    name: shared-internal
   web:
     external: true
     name: shared-web
