@@ -27,3 +27,6 @@ init-pre-commit:	## Init pre-commit
 	pre-commit clean
 	pre-commit install
 	pre-commit run --all-files
+
+tests:
+	docker compose -f docker-compose-dev.yml run --rm test

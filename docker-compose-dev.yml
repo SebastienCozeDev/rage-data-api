@@ -4,3 +4,11 @@ services:
     container_name: rage-fastapi
     ports:
       - "8000:80"
+  
+  test:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONPATH=/app
+    entrypoint: pytest tests/ -v --tb=short
