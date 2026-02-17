@@ -1,6 +1,6 @@
 # ⚙️ RAGE Data API
 
-![Version](https://img.shields.io/badge/version-0.1.0--beta.2-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10%2B-yellow.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.128.0-green.svg)
 
@@ -29,7 +29,10 @@ make build-up-d-prod
 
 ## 🔄 Updates
 
-### 🔄 v0.1.0-beta-2
+### 🔄 v0.1.0 — February 17, 2026
+- ✅ Added unit tests and verified its coverage.
+
+### 🔄 v0.1.0-beta-2 — February 13, 2026
 - 👷 Added `docker-compose-prod.yml`, `docker-compose.dev.yml` and `Makefile`.
 - 👷 Added a CI using Pylint.
 - ✨ Added filters on each endpoint.
