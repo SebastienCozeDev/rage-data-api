@@ -106,7 +106,6 @@ def test_get_model_with_type():
 
 @patch("services.get_model")
 def test_get_ped_models(mock_get_model):
-    """Test get_ped_models merge name_filter and hash_filter."""
     name_filter = get_model_with_name("A")
     hash_filter = get_model_with_hash("0x123")
     mock_get_model.return_value = [{"name": "A", "hash": "0x123"}]
@@ -117,54 +116,45 @@ def test_get_ped_models(mock_get_model):
     )
     assert isinstance(result, list)
 
+
 @patch("services.get_model")
 def test_get_blip_colors(mock_get_model):
-    """Test get_blip_colors appelle get_model avec bon filename."""
-    filters = get_model_with_id(1)  # {"id": 1}
+    filters = get_model_with_id(1)
     mock_get_model.return_value = [{"id": 1}]
-    
     result = get_blip_colors(filters)
-    
     mock_get_model.assert_called_once_with("blip_colors", filters)
     assert isinstance(result, list)
 
+
 @patch("services.get_model")
 def test_get_blip_models(mock_get_model):
-    """Test get_blip_models (ATTENTION: bug dans ton code → 'blip_colors' au lieu de 'blip_models' ?)."""
     filters = get_model_with_id(1)
     mock_get_model.return_value = [{"id": 1}]
-    
     result = get_blip_models(filters)
-    
-    mock_get_model.assert_called_once_with("blip_models", filters)  # ✅ corrige le bug si besoin
+    mock_get_model.assert_called_once_with("blip_models", filters)
     assert isinstance(result, list)
+
 
 @patch("services.get_model")
 def test_get_markers(mock_get_model):
     filters = get_model_with_id(1)
     mock_get_model.return_value = [{"id": 1}]
-    
     result = get_markers(filters)
-    
     mock_get_model.assert_called_once_with("markers", filters)
     assert isinstance(result, list)
 
+
 @patch("services.get_model")
 def test_get_weapons(mock_get_model):
-    """Test get_weapons merge 3 filtres."""
     name_filter = get_model_with_name("A")
     hash_filter = get_model_with_hash("0x123")
     type_filter = get_model_with_type("melee")
-    
     mock_get_model.return_value = [{"name": "A", "type": "melee"}]
-    
     result = get_weapons(
         name_filter=name_filter,
         hash_filter=hash_filter,
         type_filter=type_filter
     )
-    
-    # VÉRIFIE le merge des 3 dicts
     mock_get_model.assert_called_once_with(
         "weapons",
         {
@@ -174,4 +164,3 @@ def test_get_weapons(mock_get_model):
         }
     )
     assert isinstance(result, list)
-

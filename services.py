@@ -75,7 +75,7 @@ def get_blip_models(filters = Depends(get_model_with_id)) -> List[BlipModel]:
     """
     Get filtered or not blip models.
     """
-    return get_model("blip_colors", filters)
+    return get_model("blip_models", filters)
 
 
 def get_markers(filters = Depends(get_model_with_id)) -> List[Marker]:
