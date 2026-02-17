@@ -8,9 +8,9 @@ services:
   coverage-report:
     image: nginx:alpine
     ports:
-      - "8080:80"  # ← localhost:8080 pour voir les rapports
+      - "8080:80"
     volumes:
-      - ./htmlcov:/usr/share/nginx/html:ro  # monte htmlcov statique
+      - ./htmlcov:/usr/share/nginx/html:ro
     depends_on:
       - test
 
