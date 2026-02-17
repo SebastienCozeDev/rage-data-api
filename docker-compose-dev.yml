@@ -4,3 +4,27 @@ services:
     container_name: rage-fastapi
     ports:
       - "8000:80"
+
+  coverage-report:
+    image: nginx:alpine
+    ports:
+      - "8080:80"  # ← localhost:8080 pour voir les rapports
+    volumes:
+      - ./htmlcov:/usr/share/nginx/html:ro  # monte htmlcov statique
+    depends_on:
+      - test
+
+  test:
+    build: .
+    volumes:
+      - .:/app
+    environment:
+      - PYTHONPATH=/app
+    entrypoint: |
+      bash -c "
+        pip install coverage pytest pytest-cov &&
+        coverage run --source=. -m pytest tests/ -v &&
+        coverage report &&
+        coverage html &&
+        echo 'HTML Report generated at htmlcov/index.html'
+      "

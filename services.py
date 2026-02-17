@@ -23,6 +23,7 @@ def get_model(model_name: str, filters) -> Union[List[BlipModel], List[BlipColor
         raise HTTPException(status_code=status.HTTP_404_NOT_FOUND, detail="No model founded")
     return data
 
+
 def get_model_with_id(id: int = None):
     """
     Get a model with identifier.
@@ -74,7 +75,7 @@ def get_blip_models(filters = Depends(get_model_with_id)) -> List[BlipModel]:
     """
     Get filtered or not blip models.
     """
-    return get_model("blip_colors", filters)
+    return get_model("blip_models", filters)
 
 
 def get_markers(filters = Depends(get_model_with_id)) -> List[Marker]:
