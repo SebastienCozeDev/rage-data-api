@@ -28,5 +28,5 @@ init-pre-commit:	## Init pre-commit
 	pre-commit install
 	pre-commit run --all-files
 
-tests:
+tests:	## Run tests in the Docker container
 	docker compose -f docker-compose-dev.yml run --rm test

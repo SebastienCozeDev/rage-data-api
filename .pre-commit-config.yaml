@@ -3,4 +3,4 @@ repos:
     rev: v4.0.4
     hooks:
       - id: pylint
-        args: ["--disable=C0301,E0401,R0801,R0903,R0913,R0917,W0622,W0707"]
+        args: ["--disable=C0301,E0401,R0801,R0903,R0913,R0917,W0622,W0707", "--ignore-patterns=test_.*"]

@@ -11,4 +11,11 @@ services:
       - .:/app
     environment:
       - PYTHONPATH=/app
-    entrypoint: pytest tests/ -v --tb=short
+    entrypoint: |
+      bash -c "
+        pip install coverage pytest pytest-cov &&
+        coverage run --source=. -m pytest tests/ -v &&
+        coverage report &&
+        coverage html &&
+        echo 'HTML Report generated at htmlcov/index.html'
+      "
