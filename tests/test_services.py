@@ -8,7 +8,9 @@ import pytest
 from unittest.mock import mock_open, patch
 
 from services import (
+    get_controls,
     get_model,
+    get_model_with_equivalent,
     get_model_with_id,
     get_model_with_name,
     get_model_with_hash,
@@ -132,6 +134,28 @@ def test_get_blip_models(mock_get_model):
     mock_get_model.return_value = [{"id": 1}]
     result = get_blip_models(filters)
     mock_get_model.assert_called_once_with("blip_models", filters)
+    assert isinstance(result, list)
+
+
+@patch("services.get_model")
+def test_get_controls(mock_get_model):
+    id_filter = get_model_with_id(235)
+    name_filter = get_model_with_name("INPUT_JUMP")
+    equivalent_filter = get_model_with_equivalent("Space Key")
+    mock_get_model.return_value = [{"id": 235, "name": "INPUT_JUMP", "equivalent": "Space Key"}]
+    result = get_controls(
+        id_filter=id_filter,
+        name_filter=name_filter,
+        equivalent_filter=equivalent_filter
+    )
+    mock_get_model.assert_called_once_with(
+        "controls",
+        {
+            **id_filter,
+            **name_filter,
+            **equivalent_filter,
+        }
+    )
     assert isinstance(result, list)
 
 
