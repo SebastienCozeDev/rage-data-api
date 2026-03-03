@@ -27,6 +27,20 @@ make build-up
 make build-up-d-prod
 ```
 
+## 🎯 Plan de développement
+
+| Fonctionnalité                                                     | Statut        |
+|--------------------------------------------------------------------|---------------|
+| Ajout des données importantes de GTA5                              | ✅ Fait      |
+| Ajout de toutes les données de GTA5                                | 🔄 En cours  |
+| Suppression des fichiers JSON au profil de PostgreSQL              | ⏳ Prévu     |
+| Authentification JWT                                               | ⏳ Prévu     |
+| Rôle des utilisateurs                                              | ⏳ Prévu     |
+| Import de fichiers JSON (admin)                                    | ⏳ Prévu     |
+| Opérations CRUD pour tous les modèles (admins)                     | ⏳ Prévu     |
+| Demande de modification/créations par les utilisateurs             | ⏳ Prévu     |
+| Création de page en Markdown                                       | ⏳ Prévu     |
+
 ## 🔄 Mises à jour
 
 ### 🔄 v0.1.0 — 17 février 2026
