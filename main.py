@@ -24,10 +24,16 @@ tags_metadata = [
     },
 ]
 
+with open("README.md", "r", encoding="utf-8") as f:
+    readme_content = f.read()
+    lines = readme_content.split('\n')
+    roadmap_index = next((i for i, line in enumerate(lines) if "🎯 Roadmap" in line), 0)
+    readme_content = '\n'.join(lines[roadmap_index:])
+
 app = FastAPI(
-    title="RAGE Data API",
-    description="An API to access RAGE data such as blip models, colors, markers, ped models, and weapons.",
-    summary="An API for RAGE data retrieval.",
+    title="⚙️ RAGE Data API",
+    summary="RAGE Data API allows you to retrieve useful information from video games using the RAGE game engine. This information helps, in particular, mod developers to simplify their research.",
+    description=readme_content,
     version="0.1.1",
     openapi_tags=tags_metadata,
     docs_url="/",
