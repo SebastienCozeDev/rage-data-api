@@ -27,6 +27,20 @@ make build-up
 make build-up-d-prod
 ```
 
+## 🎯 Roadmap
+
+| Feature                                           | Status          |
+|---------------------------------------------------|-----------------|
+| Add important GTA5 data                           | ✅ Done        |
+| Add all GTA5 data                                 | 🔄 In progress |
+| Replace JSON files with PostgreSQL                | ⏳ Planned     |
+| JWT Authentication                                | ⏳ Planned     |
+| User roles                                        | ⏳ Planned     |
+| JSON file import for administrators               | ⏳ Planned     |
+| CRUD operations for all models (administrators)   | ⏳ Planned     |
+| User modification/creation requests               | ⏳ Planned     |
+| Markdown page creation                            | ⏳ Planned     |
+
 ## 🔄 Updates
 
 ### 🔄 v0.1.0-beta-2
