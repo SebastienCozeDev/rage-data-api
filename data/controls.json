@@ -1,0 +1,1817 @@
+[
+  {
+    "id": 0,
+    "name": "INPUT_NEXT_CAMERA",
+    "equivalent": "V"
+  },
+  {
+    "id": 1,
+    "name": "INPUT_LOOK_LR",
+    "equivalent": "Left Mouse Button"
+  },
+  {
+    "id": 2,
+    "name": "INPUT_LOOK_UD",
+    "equivalent": "Right Mouse Button"
+  },
+  {
+    "id": 3,
+    "name": "INPUT_LOOK_UP_ONLY",
+    "equivalent": "Control-Break Processing"
+  },
+  {
+    "id": 4,
+    "name": "INPUT_LOOK_DOWN_ONLY",
+    "equivalent": "Middle Mouse Button"
+  },
+  {
+    "id": 5,
+    "name": "INPUT_LOOK_LEFT_ONLY",
+    "equivalent": ""
+  },
+  {
+    "id": 6,
+    "name": "INPUT_LOOK_RIGHT_ONLY",
+    "equivalent": "Right Mouse Button"
+  },
+  {
+    "id": 7,
+    "name": "INPUT_CINEMATIC_SLOWMO",
+    "equivalent": "L"
+  },
+  {
+    "id": 8,
+    "name": "INPUT_SCRIPTED_FLY_UD",
+    "equivalent": "S"
+  },
+  {
+    "id": 9,
+    "name": "INPUT_SCRIPTED_FLY_LR",
+    "equivalent": "D"
+  },
+  {
+    "id": 10,
+    "name": "INPUT_SCRIPTED_FLY_ZUP",
+    "equivalent": "PAGE UP"
+  },
+  {
+    "id": 11,
+    "name": "INPUT_SCRIPTED_FLY_ZDOWN",
+    "equivalent": "PAGE DOWN"
+  },
+  {
+    "id": 12,
+    "name": "INPUT_WEAPON_WHEEL_UD",
+    "equivalent": "MOUSE DOWN"
+  },
+  {
+    "id": 13,
+    "name": "INPUT_WEAPON_WHEEL_LR",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 14,
+    "name": "INPUT_WEAPON_WHEEL_NEXT",
+    "equivalent": "MOUSE SCROLL WHEEL DOWN"
+  },
+  {
+    "id": 15,
+    "name": "INPUT_WEAPON_WHEEL_PREV",
+    "equivalent": "MOUSE SCROLL WHEEL UP"
+  },
+  {
+    "id": 16,
+    "name": "INPUT_SELECT_NEXT_WEAPON",
+    "equivalent": "MOUSE SCROLL WHEEL DOWN"
+  },
+  {
+    "id": 17,
+    "name": "INPUT_SELECT_PREV_WEAPON",
+    "equivalent": "MOUSE SCROLL WHEEL UP"
+  },
+  {
+    "id": 18,
+    "name": "INPUT_SKIP_CUTSCENE",
+    "equivalent": "ENTER / LEFT MOUSE BUTTON / SPACEBAR"
+  },
+  {
+    "id": 19,
+    "name": "INPUT_CHARACTER_WHEEL",
+    "equivalent": "LEFT ALT"
+  },
+  {
+    "id": 20,
+    "name": "INPUT_MULTIPLAYER_INFO",
+    "equivalent": "Z"
+  },
+  {
+    "id": 21,
+    "name": "INPUT_SPRINT",
+    "equivalent": "Shift Key"
+  },
+  {
+    "id": 22,
+    "name": "INPUT_JUMP",
+    "equivalent": "Space Key"
+  },
+  {
+    "id": 23,
+    "name": "INPUT_ENTER",
+    "equivalent": "Enter Key"
+  },
+  {
+    "id": 24,
+    "name": "INPUT_ATTACK",
+    "equivalent": "Left Mouse Button"
+  },
+  {
+    "id": 25,
+    "name": "INPUT_AIM",
+    "equivalent": "Right Mouse Button"
+  },
+  {
+    "id": 26,
+    "name": "INPUT_LOOK_BEHIND",
+    "equivalent": "C"
+  },
+  {
+    "id": 27,
+    "name": "INPUT_PHONE",
+    "equivalent": "ARROW UP/SCROLLWHEEL BUTTON (press)"
+  },
+  {
+    "id": 28,
+    "name": "INPUT_SPECIAL_ABILITY",
+    "equivalent": ""
+  },
+  {
+    "id": 29,
+    "name": "INPUT_SPECIAL_ABILITY_SECONDARY",
+    "equivalent": "B"
+  },
+  {
+    "id": 30,
+    "name": "INPUT_MOVE_LR",
+    "equivalent": "D"
+  },
+  {
+    "id": 31,
+    "name": "INPUT_MOVE_UD",
+    "equivalent": "S"
+  },
+  {
+    "id": 32,
+    "name": "INPUT_MOVE_UP_ONLY",
+    "equivalent": "W"
+  },
+  {
+    "id": 33,
+    "name": "INPUT_MOVE_DOWN_ONLY",
+    "equivalent": "S"
+  },
+  {
+    "id": 34,
+    "name": "INPUT_MOVE_LEFT_ONLY",
+    "equivalent": "A"
+  },
+  {
+    "id": 35,
+    "name": "INPUT_MOVE_RIGHT_ONLY",
+    "equivalent": "D"
+  },
+  {
+    "id": 36,
+    "name": "INPUT_DUCK",
+    "equivalent": "LEFT CONTROL"
+  },
+  {
+    "id": 37,
+    "name": "INPUT_SELECT_WEAPON",
+    "equivalent": "TAB"
+  },
+  {
+    "id": 38,
+    "name": "INPUT_PICKUP",
+    "equivalent": "E"
+  },
+  {
+    "id": 39,
+    "name": "INPUT_SNIPER_ZOOM",
+    "equivalent": "["
+  },
+  {
+    "id": 40,
+    "name": "INPUT_SNIPER_ZOOM_IN_ONLY",
+    "equivalent": "]"
+  },
+  {
+    "id": 41,
+    "name": "INPUT_SNIPER_ZOOM_OUT_ONLY",
+    "equivalent": "["
+  },
+  {
+    "id": 42,
+    "name": "INPUT_SNIPER_ZOOM_IN_SECONDARY",
+    "equivalent": "]"
+  },
+  {
+    "id": 43,
+    "name": "INPUT_SNIPER_ZOOM_OUT_SECONDARY",
+    "equivalent": "["
+  },
+  {
+    "id": 44,
+    "name": "INPUT_COVER",
+    "equivalent": "Q"
+  },
+  {
+    "id": 45,
+    "name": "INPUT_RELOAD",
+    "equivalent": "R"
+  },
+  {
+    "id": 46,
+    "name": "INPUT_TALK",
+    "equivalent": "E"
+  },
+  {
+    "id": 47,
+    "name": "INPUT_DETONATE",
+    "equivalent": "G"
+  },
+  {
+    "id": 48,
+    "name": "INPUT_HUD_SPECIAL",
+    "equivalent": "Z"
+  },
+  {
+    "id": 49,
+    "name": "INPUT_ARREST",
+    "equivalent": "F"
+  },
+  {
+    "id": 50,
+    "name": "INPUT_ACCURATE_AIM",
+    "equivalent": "SCROLLWHEEL DOWN"
+  },
+  {
+    "id": 51,
+    "name": "INPUT_CONTEXT",
+    "equivalent": "E"
+  },
+  {
+    "id": 52,
+    "name": "INPUT_CONTEXT_SECONDARY",
+    "equivalent": "Q"
+  },
+  {
+    "id": 53,
+    "name": "INPUT_WEAPON_SPECIAL",
+    "equivalent": ""
+  },
+  {
+    "id": 54,
+    "name": "INPUT_WEAPON_SPECIAL_TWO",
+    "equivalent": "E"
+  },
+  {
+    "id": 55,
+    "name": "INPUT_DIVE",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 56,
+    "name": "INPUT_DROP_WEAPON",
+    "equivalent": "F9"
+  },
+  {
+    "id": 57,
+    "name": "INPUT_DROP_AMMO",
+    "equivalent": "F10"
+  },
+  {
+    "id": 58,
+    "name": "INPUT_THROW_GRENADE",
+    "equivalent": "G"
+  },
+  {
+    "id": 59,
+    "name": "INPUT_VEH_MOVE_LR",
+    "equivalent": "D"
+  },
+  {
+    "id": 60,
+    "name": "INPUT_VEH_MOVE_UD",
+    "equivalent": "LEFT CTRL"
+  },
+  {
+    "id": 61,
+    "name": "INPUT_VEH_MOVE_UP_ONLY",
+    "equivalent": "LEFT SHIFT"
+  },
+  {
+    "id": 62,
+    "name": "INPUT_VEH_MOVE_DOWN_ONLY",
+    "equivalent": "LEFT CTRL"
+  },
+  {
+    "id": 63,
+    "name": "INPUT_VEH_MOVE_LEFT_ONLY",
+    "equivalent": "A"
+  },
+  {
+    "id": 64,
+    "name": "INPUT_VEH_MOVE_RIGHT_ONLY",
+    "equivalent": "D"
+  },
+  {
+    "id": 65,
+    "name": "INPUT_VEH_SPECIAL",
+    "equivalent": ""
+  },
+  {
+    "id": 66,
+    "name": "INPUT_VEH_GUN_LR",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 67,
+    "name": "INPUT_VEH_GUN_UD",
+    "equivalent": "MOUSE DOWN"
+  },
+  {
+    "id": 68,
+    "name": "INPUT_VEH_AIM",
+    "equivalent": "RIGHT MOUSE BUTTON"
+  },
+  {
+    "id": 69,
+    "name": "INPUT_VEH_ATTACK",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 70,
+    "name": "INPUT_VEH_ATTACK2",
+    "equivalent": "RIGHT MOUSE BUTTON"
+  },
+  {
+    "id": 71,
+    "name": "INPUT_VEH_ACCELERATE",
+    "equivalent": "W"
+  },
+  {
+    "id": 72,
+    "name": "INPUT_VEH_BRAKE",
+    "equivalent": "S"
+  },
+  {
+    "id": 73,
+    "name": "INPUT_VEH_DUCK",
+    "equivalent": "X"
+  },
+  {
+    "id": 74,
+    "name": "INPUT_VEH_HEADLIGHT",
+    "equivalent": "H"
+  },
+  {
+    "id": 75,
+    "name": "INPUT_VEH_EXIT",
+    "equivalent": "F"
+  },
+  {
+    "id": 76,
+    "name": "INPUT_VEH_HANDBRAKE",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 77,
+    "name": "INPUT_VEH_HOTWIRE_LEFT",
+    "equivalent": "W"
+  },
+  {
+    "id": 78,
+    "name": "INPUT_VEH_HOTWIRE_RIGHT",
+    "equivalent": "S"
+  },
+  {
+    "id": 79,
+    "name": "INPUT_VEH_LOOK_BEHIND",
+    "equivalent": "C"
+  },
+  {
+    "id": 80,
+    "name": "INPUT_VEH_CIN_CAM",
+    "equivalent": "R"
+  },
+  {
+    "id": 81,
+    "name": "INPUT_VEH_NEXT_RADIO",
+    "equivalent": "."
+  },
+  {
+    "id": 82,
+    "name": "INPUT_VEH_PREV_RADIO",
+    "equivalent": ","
+  },
+  {
+    "id": 83,
+    "name": "INPUT_VEH_NEXT_RADIO_TRACK",
+    "equivalent": "="
+  },
+  {
+    "id": 84,
+    "name": "INPUT_VEH_PREV_RADIO_TRACK",
+    "equivalent": "-"
+  },
+  {
+    "id": 85,
+    "name": "INPUT_VEH_RADIO_WHEEL",
+    "equivalent": "Q"
+  },
+  {
+    "id": 86,
+    "name": "INPUT_VEH_HORN",
+    "equivalent": "E"
+  },
+  {
+    "id": 87,
+    "name": "INPUT_VEH_FLY_THROTTLE_UP",
+    "equivalent": "W"
+  },
+  {
+    "id": 88,
+    "name": "INPUT_VEH_FLY_THROTTLE_DOWN",
+    "equivalent": "S"
+  },
+  {
+    "id": 89,
+    "name": "INPUT_VEH_FLY_YAW_LEFT",
+    "equivalent": "A"
+  },
+  {
+    "id": 90,
+    "name": "INPUT_VEH_FLY_YAW_RIGHT",
+    "equivalent": "D"
+  },
+  {
+    "id": 91,
+    "name": "INPUT_VEH_PASSENGER_AIM",
+    "equivalent": "RIGHT MOUSE BUTTON"
+  },
+  {
+    "id": 92,
+    "name": "INPUT_VEH_PASSENGER_ATTACK",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 93,
+    "name": "INPUT_VEH_SPECIAL_ABILITY_FRANKLIN",
+    "equivalent": ""
+  },
+  {
+    "id": 94,
+    "name": "INPUT_VEH_STUNT_UD",
+    "equivalent": ""
+  },
+  {
+    "id": 95,
+    "name": "INPUT_VEH_CINEMATIC_UD",
+    "equivalent": "MOUSE DOWN"
+  },
+  {
+    "id": 96,
+    "name": "INPUT_VEH_CINEMATIC_UP_ONLY",
+    "equivalent": "NUMPAD- / SCROLLWHEEL UP"
+  },
+  {
+    "id": 97,
+    "name": "INPUT_VEH_CINEMATIC_DOWN_ONLY",
+    "equivalent": "NUMPAD+ / SCROLLWHEEL DOWN"
+  },
+  {
+    "id": 98,
+    "name": "INPUT_VEH_CINEMATIC_LR",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 99,
+    "name": "INPUT_VEH_SELECT_NEXT_WEAPON",
+    "equivalent": "SCROLLWHEEL UP"
+  },
+  {
+    "id": 100,
+    "name": "INPUT_VEH_SELECT_PREV_WEAPON",
+    "equivalent": "["
+  },
+  {
+    "id": 101,
+    "name": "INPUT_VEH_ROOF",
+    "equivalent": "H"
+  },
+  {
+    "id": 102,
+    "name": "INPUT_VEH_JUMP",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 103,
+    "name": "INPUT_VEH_GRAPPLING_HOOK",
+    "equivalent": "E"
+  },
+  {
+    "id": 104,
+    "name": "INPUT_VEH_SHUFFLE",
+    "equivalent": "H"
+  },
+  {
+    "id": 105,
+    "name": "INPUT_VEH_DROP_PROJECTILE",
+    "equivalent": "X"
+  },
+  {
+    "id": 106,
+    "name": "INPUT_VEH_MOUSE_CONTROL_OVERRIDE",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 107,
+    "name": "INPUT_VEH_FLY_ROLL_LR",
+    "equivalent": "NUMPAD 6"
+  },
+  {
+    "id": 108,
+    "name": "INPUT_VEH_FLY_ROLL_LEFT_ONLY",
+    "equivalent": "NUMPAD 4"
+  },
+  {
+    "id": 109,
+    "name": "INPUT_VEH_FLY_ROLL_RIGHT_ONLY",
+    "equivalent": "NUMPAD 6"
+  },
+  {
+    "id": 110,
+    "name": "INPUT_VEH_FLY_PITCH_UD",
+    "equivalent": "NUMPAD 5"
+  },
+  {
+    "id": 111,
+    "name": "INPUT_VEH_FLY_PITCH_UP_ONLY",
+    "equivalent": "NUMPAD 8"
+  },
+  {
+    "id": 112,
+    "name": "INPUT_VEH_FLY_PITCH_DOWN_ONLY",
+    "equivalent": "NUMPAD 5"
+  },
+  {
+    "id": 113,
+    "name": "INPUT_VEH_FLY_UNDERCARRIAGE",
+    "equivalent": "G"
+  },
+  {
+    "id": 114,
+    "name": "INPUT_VEH_FLY_ATTACK",
+    "equivalent": "RIGHT MOUSE BUTTON"
+  },
+  {
+    "id": 115,
+    "name": "INPUT_VEH_FLY_SELECT_NEXT_WEAPON",
+    "equivalent": "SCROLLWHEEL UP"
+  },
+  {
+    "id": 116,
+    "name": "INPUT_VEH_FLY_SELECT_PREV_WEAPON",
+    "equivalent": "["
+  },
+  {
+    "id": 117,
+    "name": "INPUT_VEH_FLY_SELECT_TARGET_LEFT",
+    "equivalent": "NUMPAD 7"
+  },
+  {
+    "id": 118,
+    "name": "INPUT_VEH_FLY_SELECT_TARGET_RIGHT",
+    "equivalent": "NUMPAD 9"
+  },
+  {
+    "id": 119,
+    "name": "INPUT_VEH_FLY_VERTICAL_FLIGHT_MODE",
+    "equivalent": "E"
+  },
+  {
+    "id": 120,
+    "name": "INPUT_VEH_FLY_DUCK",
+    "equivalent": "X"
+  },
+  {
+    "id": 121,
+    "name": "INPUT_VEH_FLY_ATTACK_CAMERA",
+    "equivalent": "INSERT"
+  },
+  {
+    "id": 122,
+    "name": "INPUT_VEH_FLY_MOUSE_CONTROL_OVERRIDE",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 123,
+    "name": "INPUT_VEH_SUB_TURN_LR",
+    "equivalent": "NUMPAD 6"
+  },
+  {
+    "id": 124,
+    "name": "INPUT_VEH_SUB_TURN_LEFT_ONLY",
+    "equivalent": "NUMPAD 4"
+  },
+  {
+    "id": 125,
+    "name": "INPUT_VEH_SUB_TURN_RIGHT_ONLY",
+    "equivalent": "NUMPAD 6"
+  },
+  {
+    "id": 126,
+    "name": "INPUT_VEH_SUB_PITCH_UD",
+    "equivalent": "NUMPAD 5"
+  },
+  {
+    "id": 127,
+    "name": "INPUT_VEH_SUB_PITCH_UP_ONLY",
+    "equivalent": "NUMPAD 8"
+  },
+  {
+    "id": 128,
+    "name": "INPUT_VEH_SUB_PITCH_DOWN_ONLY",
+    "equivalent": "NUMPAD 5"
+  },
+  {
+    "id": 129,
+    "name": "INPUT_VEH_SUB_THROTTLE_UP",
+    "equivalent": "W"
+  },
+  {
+    "id": 130,
+    "name": "INPUT_VEH_SUB_THROTTLE_DOWN",
+    "equivalent": "S"
+  },
+  {
+    "id": 131,
+    "name": "INPUT_VEH_SUB_ASCEND",
+    "equivalent": "LEFT SHIFT"
+  },
+  {
+    "id": 132,
+    "name": "INPUT_VEH_SUB_DESCEND",
+    "equivalent": "LEFT CTRL"
+  },
+  {
+    "id": 133,
+    "name": "INPUT_VEH_SUB_TURN_HARD_LEFT",
+    "equivalent": "A"
+  },
+  {
+    "id": 134,
+    "name": "INPUT_VEH_SUB_TURN_HARD_RIGHT",
+    "equivalent": "D"
+  },
+  {
+    "id": 135,
+    "name": "INPUT_VEH_SUB_MOUSE_CONTROL_OVERRIDE",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 136,
+    "name": "INPUT_VEH_PUSHBIKE_PEDAL",
+    "equivalent": "W"
+  },
+  {
+    "id": 137,
+    "name": "INPUT_VEH_PUSHBIKE_SPRINT",
+    "equivalent": "CAPSLOCK"
+  },
+  {
+    "id": 138,
+    "name": "INPUT_VEH_PUSHBIKE_FRONT_BRAKE",
+    "equivalent": "Q"
+  },
+  {
+    "id": 139,
+    "name": "INPUT_VEH_PUSHBIKE_REAR_BRAKE",
+    "equivalent": "S"
+  },
+  {
+    "id": 140,
+    "name": "INPUT_MELEE_ATTACK_LIGHT",
+    "equivalent": "R"
+  },
+  {
+    "id": 141,
+    "name": "INPUT_MELEE_ATTACK_HEAVY",
+    "equivalent": "Q"
+  },
+  {
+    "id": 142,
+    "name": "INPUT_MELEE_ATTACK_ALTERNATE",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 143,
+    "name": "INPUT_MELEE_BLOCK",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 144,
+    "name": "INPUT_PARACHUTE_DEPLOY",
+    "equivalent": "F / LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 145,
+    "name": "INPUT_PARACHUTE_DETACH",
+    "equivalent": "F"
+  },
+  {
+    "id": 146,
+    "name": "INPUT_PARACHUTE_TURN_LR",
+    "equivalent": "D"
+  },
+  {
+    "id": 147,
+    "name": "INPUT_PARACHUTE_TURN_LEFT_ONLY",
+    "equivalent": "A"
+  },
+  {
+    "id": 148,
+    "name": "INPUT_PARACHUTE_TURN_RIGHT_ONLY",
+    "equivalent": "D"
+  },
+  {
+    "id": 149,
+    "name": "INPUT_PARACHUTE_PITCH_UD",
+    "equivalent": "S"
+  },
+  {
+    "id": 150,
+    "name": "INPUT_PARACHUTE_PITCH_UP_ONLY",
+    "equivalent": "W"
+  },
+  {
+    "id": 151,
+    "name": "INPUT_PARACHUTE_PITCH_DOWN_ONLY",
+    "equivalent": "S"
+  },
+  {
+    "id": 152,
+    "name": "INPUT_PARACHUTE_BRAKE_LEFT",
+    "equivalent": "Q"
+  },
+  {
+    "id": 153,
+    "name": "INPUT_PARACHUTE_BRAKE_RIGHT",
+    "equivalent": "E"
+  },
+  {
+    "id": 154,
+    "name": "INPUT_PARACHUTE_SMOKE",
+    "equivalent": "X"
+  },
+  {
+    "id": 155,
+    "name": "INPUT_PARACHUTE_PRECISION_LANDING",
+    "equivalent": "LEFT SHIFT"
+  },
+  {
+    "id": 156,
+    "name": "INPUT_MAP",
+    "equivalent": ""
+  },
+  {
+    "id": 157,
+    "name": "INPUT_SELECT_WEAPON_UNARMED",
+    "equivalent": "1"
+  },
+  {
+    "id": 158,
+    "name": "INPUT_SELECT_WEAPON_MELEE",
+    "equivalent": "2"
+  },
+  {
+    "id": 159,
+    "name": "INPUT_SELECT_WEAPON_HANDGUN",
+    "equivalent": "6"
+  },
+  {
+    "id": 160,
+    "name": "INPUT_SELECT_WEAPON_SHOTGUN",
+    "equivalent": "3"
+  },
+  {
+    "id": 161,
+    "name": "INPUT_SELECT_WEAPON_SMG",
+    "equivalent": "7"
+  },
+  {
+    "id": 162,
+    "name": "INPUT_SELECT_WEAPON_AUTO_RIFLE",
+    "equivalent": "8"
+  },
+  {
+    "id": 163,
+    "name": "INPUT_SELECT_WEAPON_SNIPER",
+    "equivalent": "9"
+  },
+  {
+    "id": 164,
+    "name": "INPUT_SELECT_WEAPON_HEAVY",
+    "equivalent": "4"
+  },
+  {
+    "id": 165,
+    "name": "INPUT_SELECT_WEAPON_SPECIAL",
+    "equivalent": "5"
+  },
+  {
+    "id": 166,
+    "name": "INPUT_SELECT_CHARACTER_MICHAEL",
+    "equivalent": "F5"
+  },
+  {
+    "id": 167,
+    "name": "INPUT_SELECT_CHARACTER_FRANKLIN",
+    "equivalent": "F6"
+  },
+  {
+    "id": 168,
+    "name": "INPUT_SELECT_CHARACTER_TREVOR",
+    "equivalent": "F7"
+  },
+  {
+    "id": 169,
+    "name": "INPUT_SELECT_CHARACTER_MULTIPLAYER",
+    "equivalent": "F8"
+  },
+  {
+    "id": 170,
+    "name": "INPUT_SAVE_REPLAY_CLIP",
+    "equivalent": "F3"
+  },
+  {
+    "id": 171,
+    "name": "INPUT_SPECIAL_ABILITY_PC",
+    "equivalent": "CAPSLOCK"
+  },
+  {
+    "id": 172,
+    "name": "INPUT_CELLPHONE_UP",
+    "equivalent": "ARROW UP"
+  },
+  {
+    "id": 173,
+    "name": "INPUT_CELLPHONE_DOWN",
+    "equivalent": "ARROW DOWN"
+  },
+  {
+    "id": 174,
+    "name": "INPUT_CELLPHONE_LEFT",
+    "equivalent": "ARROW LEFT"
+  },
+  {
+    "id": 175,
+    "name": "INPUT_CELLPHONE_RIGHT",
+    "equivalent": "ARROW RIGHT"
+  },
+  {
+    "id": 176,
+    "name": "INPUT_CELLPHONE_SELECT",
+    "equivalent": "ENTER/LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 177,
+    "name": "INPUT_CELLPHONE_CANCEL",
+    "equivalent": "BACKSPACE/ESC/RIGHT MOUSE BUTTON"
+  },
+  {
+    "id": 178,
+    "name": "INPUT_CELLPHONE_OPTION",
+    "equivalent": "DELETE"
+  },
+  {
+    "id": 179,
+    "name": "INPUT_CELLPHONE_EXTRA_OPTION",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 180,
+    "name": "INPUT_CELLPHONE_SCROLL_FORWARD",
+    "equivalent": "SCROLLWHEEL DOWN"
+  },
+  {
+    "id": 181,
+    "name": "INPUT_CELLPHONE_SCROLL_BACKWARD",
+    "equivalent": "SCROLLWHEEL UP"
+  },
+  {
+    "id": 182,
+    "name": "INPUT_CELLPHONE_CAMERA_FOCUS_LOCK",
+    "equivalent": "L"
+  },
+  {
+    "id": 183,
+    "name": "INPUT_CELLPHONE_CAMERA_GRID",
+    "equivalent": "G"
+  },
+  {
+    "id": 184,
+    "name": "INPUT_CELLPHONE_CAMERA_SELFIE",
+    "equivalent": "E"
+  },
+  {
+    "id": 185,
+    "name": "INPUT_CELLPHONE_CAMERA_DOF",
+    "equivalent": "F"
+  },
+  {
+    "id": 186,
+    "name": "INPUT_CELLPHONE_CAMERA_EXPRESSION",
+    "equivalent": "X"
+  },
+  {
+    "id": 187,
+    "name": "INPUT_FRONTEND_DOWN",
+    "equivalent": "ARROW DOWN"
+  },
+  {
+    "id": 188,
+    "name": "INPUT_FRONTEND_UP",
+    "equivalent": "ARROW UP"
+  },
+  {
+    "id": 189,
+    "name": "INPUT_FRONTEND_LEFT",
+    "equivalent": "ARROW LEFT"
+  },
+  {
+    "id": 190,
+    "name": "INPUT_FRONTEND_RIGHT",
+    "equivalent": "ARROW RIGHT"
+  },
+  {
+    "id": 191,
+    "name": "INPUT_FRONTEND_RDOWN",
+    "equivalent": "ENTER"
+  },
+  {
+    "id": 192,
+    "name": "INPUT_FRONTEND_RUP",
+    "equivalent": "TAB"
+  },
+  {
+    "id": 193,
+    "name": "INPUT_FRONTEND_RLEFT",
+    "equivalent": ""
+  },
+  {
+    "id": 194,
+    "name": "INPUT_FRONTEND_RRIGHT",
+    "equivalent": "BACKSPACE"
+  },
+  {
+    "id": 195,
+    "name": "INPUT_FRONTEND_AXIS_X",
+    "equivalent": "D"
+  },
+  {
+    "id": 196,
+    "name": "INPUT_FRONTEND_AXIS_Y",
+    "equivalent": "S"
+  },
+  {
+    "id": 197,
+    "name": "INPUT_FRONTEND_RIGHT_AXIS_X",
+    "equivalent": "]"
+  },
+  {
+    "id": 198,
+    "name": "INPUT_FRONTEND_RIGHT_AXIS_Y",
+    "equivalent": "SCROLLWHEEL DOWN"
+  },
+  {
+    "id": 199,
+    "name": "INPUT_FRONTEND_PAUSE",
+    "equivalent": "P"
+  },
+  {
+    "id": 200,
+    "name": "INPUT_FRONTEND_PAUSE_ALTERNATE",
+    "equivalent": "ESC"
+  },
+  {
+    "id": 201,
+    "name": "INPUT_FRONTEND_ACCEPT",
+    "equivalent": "ENTER/NUMPAD ENTER"
+  },
+  {
+    "id": 202,
+    "name": "INPUT_FRONTEND_CANCEL",
+    "equivalent": "BACKSPACE/ESC"
+  },
+  {
+    "id": 203,
+    "name": "INPUT_FRONTEND_X",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 204,
+    "name": "INPUT_FRONTEND_Y",
+    "equivalent": "TAB"
+  },
+  {
+    "id": 205,
+    "name": "INPUT_FRONTEND_LB",
+    "equivalent": "Q"
+  },
+  {
+    "id": 206,
+    "name": "INPUT_FRONTEND_RB",
+    "equivalent": "E"
+  },
+  {
+    "id": 207,
+    "name": "INPUT_FRONTEND_LT",
+    "equivalent": "PAGE DOWN"
+  },
+  {
+    "id": 208,
+    "name": "INPUT_FRONTEND_RT",
+    "equivalent": "PAGE UP"
+  },
+  {
+    "id": 209,
+    "name": "INPUT_FRONTEND_LS",
+    "equivalent": "LEFT SHIFT"
+  },
+  {
+    "id": 210,
+    "name": "INPUT_FRONTEND_RS",
+    "equivalent": "LEFT CTRL"
+  },
+  {
+    "id": 211,
+    "name": "INPUT_FRONTEND_LEADERBOARD",
+    "equivalent": "TAB"
+  },
+  {
+    "id": 212,
+    "name": "INPUT_FRONTEND_SOCIAL_CLUB",
+    "equivalent": "HOME"
+  },
+  {
+    "id": 213,
+    "name": "INPUT_FRONTEND_SOCIAL_CLUB_SECONDARY",
+    "equivalent": "HOME"
+  },
+  {
+    "id": 214,
+    "name": "INPUT_FRONTEND_DELETE",
+    "equivalent": "DELETE"
+  },
+  {
+    "id": 215,
+    "name": "INPUT_FRONTEND_ENDSCREEN_ACCEPT",
+    "equivalent": "ENTER"
+  },
+  {
+    "id": 216,
+    "name": "INPUT_FRONTEND_ENDSCREEN_EXPAND",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 217,
+    "name": "INPUT_FRONTEND_SELECT",
+    "equivalent": "CAPSLOCK"
+  },
+  {
+    "id": 218,
+    "name": "INPUT_SCRIPT_LEFT_AXIS_X",
+    "equivalent": "D"
+  },
+  {
+    "id": 219,
+    "name": "INPUT_SCRIPT_LEFT_AXIS_Y",
+    "equivalent": "S"
+  },
+  {
+    "id": 220,
+    "name": "INPUT_SCRIPT_RIGHT_AXIS_X",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 221,
+    "name": "INPUT_SCRIPT_RIGHT_AXIS_Y",
+    "equivalent": "MOUSE DOWN"
+  },
+  {
+    "id": 222,
+    "name": "INPUT_SCRIPT_RUP",
+    "equivalent": "RIGHT MOUSE BUTTON"
+  },
+  {
+    "id": 223,
+    "name": "INPUT_SCRIPT_RDOWN",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 224,
+    "name": "INPUT_SCRIPT_RLEFT",
+    "equivalent": "LEFT CTRL"
+  },
+  {
+    "id": 225,
+    "name": "INPUT_SCRIPT_RRIGHT",
+    "equivalent": "RIGHT MOUSE BUTTON"
+  },
+  {
+    "id": 226,
+    "name": "INPUT_SCRIPT_LB",
+    "equivalent": ""
+  },
+  {
+    "id": 227,
+    "name": "INPUT_SCRIPT_RB",
+    "equivalent": ""
+  },
+  {
+    "id": 228,
+    "name": "INPUT_SCRIPT_LT",
+    "equivalent": ""
+  },
+  {
+    "id": 229,
+    "name": "INPUT_SCRIPT_RT",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 230,
+    "name": "INPUT_SCRIPT_LS",
+    "equivalent": ""
+  },
+  {
+    "id": 231,
+    "name": "INPUT_SCRIPT_RS",
+    "equivalent": ""
+  },
+  {
+    "id": 232,
+    "name": "INPUT_SCRIPT_PAD_UP",
+    "equivalent": "W"
+  },
+  {
+    "id": 233,
+    "name": "INPUT_SCRIPT_PAD_DOWN",
+    "equivalent": "S"
+  },
+  {
+    "id": 234,
+    "name": "INPUT_SCRIPT_PAD_LEFT",
+    "equivalent": "A"
+  },
+  {
+    "id": 235,
+    "name": "INPUT_SCRIPT_PAD_RIGHT",
+    "equivalent": "D"
+  },
+  {
+    "id": 236,
+    "name": "INPUT_SCRIPT_SELECT",
+    "equivalent": "V"
+  },
+  {
+    "id": 237,
+    "name": "INPUT_CURSOR_ACCEPT",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 238,
+    "name": "INPUT_CURSOR_CANCEL",
+    "equivalent": "RIGHT MOUSE BUTTON"
+  },
+  {
+    "id": 239,
+    "name": "INPUT_CURSOR_X",
+    "equivalent": ""
+  },
+  {
+    "id": 240,
+    "name": "INPUT_CURSOR_Y",
+    "equivalent": ""
+  },
+  {
+    "id": 241,
+    "name": "INPUT_CURSOR_SCROLL_UP",
+    "equivalent": "SCROLLWHEEL UP"
+  },
+  {
+    "id": 242,
+    "name": "INPUT_CURSOR_SCROLL_DOWN",
+    "equivalent": "SCROLLWHEEL DOWN"
+  },
+  {
+    "id": 243,
+    "name": "INPUT_ENTER_CHEAT_CODE",
+    "equivalent": "~ / `"
+  },
+  {
+    "id": 244,
+    "name": "INPUT_INTERACTION_MENU",
+    "equivalent": "M"
+  },
+  {
+    "id": 245,
+    "name": "INPUT_MP_TEXT_CHAT_ALL",
+    "equivalent": "T"
+  },
+  {
+    "id": 246,
+    "name": "INPUT_MP_TEXT_CHAT_TEAM",
+    "equivalent": "Y"
+  },
+  {
+    "id": 247,
+    "name": "INPUT_MP_TEXT_CHAT_FRIENDS",
+    "equivalent": ""
+  },
+  {
+    "id": 248,
+    "name": "INPUT_MP_TEXT_CHAT_CREW",
+    "equivalent": ""
+  },
+  {
+    "id": 249,
+    "name": "INPUT_PUSH_TO_TALK",
+    "equivalent": "N"
+  },
+  {
+    "id": 250,
+    "name": "INPUT_CREATOR_LS",
+    "equivalent": "R"
+  },
+  {
+    "id": 251,
+    "name": "INPUT_CREATOR_RS",
+    "equivalent": "F"
+  },
+  {
+    "id": 252,
+    "name": "INPUT_CREATOR_LT",
+    "equivalent": "X"
+  },
+  {
+    "id": 253,
+    "name": "INPUT_CREATOR_RT",
+    "equivalent": "C"
+  },
+  {
+    "id": 254,
+    "name": "INPUT_CREATOR_MENU_TOGGLE",
+    "equivalent": "LEFT SHIFT"
+  },
+  {
+    "id": 255,
+    "name": "INPUT_CREATOR_ACCEPT",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 256,
+    "name": "INPUT_CREATOR_DELETE",
+    "equivalent": "DELETE"
+  },
+  {
+    "id": 257,
+    "name": "INPUT_ATTACK2",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 258,
+    "name": "INPUT_RAPPEL_JUMP",
+    "equivalent": ""
+  },
+  {
+    "id": 259,
+    "name": "INPUT_RAPPEL_LONG_JUMP",
+    "equivalent": ""
+  },
+  {
+    "id": 260,
+    "name": "INPUT_RAPPEL_SMASH_WINDOW",
+    "equivalent": ""
+  },
+  {
+    "id": 261,
+    "name": "INPUT_PREV_WEAPON",
+    "equivalent": "SCROLLWHEEL UP"
+  },
+  {
+    "id": 262,
+    "name": "INPUT_NEXT_WEAPON",
+    "equivalent": "SCROLLWHEEL DOWN"
+  },
+  {
+    "id": 263,
+    "name": "INPUT_MELEE_ATTACK1",
+    "equivalent": "R"
+  },
+  {
+    "id": 264,
+    "name": "INPUT_MELEE_ATTACK2",
+    "equivalent": "Q"
+  },
+  {
+    "id": 265,
+    "name": "INPUT_WHISTLE",
+    "equivalent": ""
+  },
+  {
+    "id": 266,
+    "name": "INPUT_MOVE_LEFT",
+    "equivalent": "D"
+  },
+  {
+    "id": 267,
+    "name": "INPUT_MOVE_RIGHT",
+    "equivalent": "D"
+  },
+  {
+    "id": 268,
+    "name": "INPUT_MOVE_UP",
+    "equivalent": "S"
+  },
+  {
+    "id": 269,
+    "name": "INPUT_MOVE_DOWN",
+    "equivalent": "S"
+  },
+  {
+    "id": 270,
+    "name": "INPUT_LOOK_LEFT",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 271,
+    "name": "INPUT_LOOK_RIGHT",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 272,
+    "name": "INPUT_LOOK_UP",
+    "equivalent": "MOUSE DOWN"
+  },
+  {
+    "id": 273,
+    "name": "INPUT_LOOK_DOWN",
+    "equivalent": "MOUSE DOWN"
+  },
+  {
+    "id": 274,
+    "name": "INPUT_SNIPER_ZOOM_IN",
+    "equivalent": "["
+  },
+  {
+    "id": 275,
+    "name": "INPUT_SNIPER_ZOOM_OUT",
+    "equivalent": "["
+  },
+  {
+    "id": 276,
+    "name": "INPUT_SNIPER_ZOOM_IN_ALTERNATE",
+    "equivalent": "["
+  },
+  {
+    "id": 277,
+    "name": "INPUT_SNIPER_ZOOM_OUT_ALTERNATE",
+    "equivalent": "["
+  },
+  {
+    "id": 278,
+    "name": "INPUT_VEH_MOVE_LEFT",
+    "equivalent": "D"
+  },
+  {
+    "id": 279,
+    "name": "INPUT_VEH_MOVE_RIGHT",
+    "equivalent": "D"
+  },
+  {
+    "id": 280,
+    "name": "INPUT_VEH_MOVE_UP",
+    "equivalent": "LEFT CTRL"
+  },
+  {
+    "id": 281,
+    "name": "INPUT_VEH_MOVE_DOWN",
+    "equivalent": "LEFT CTRL"
+  },
+  {
+    "id": 282,
+    "name": "INPUT_VEH_GUN_LEFT",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 283,
+    "name": "INPUT_VEH_GUN_RIGHT",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 284,
+    "name": "INPUT_VEH_GUN_UP",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 285,
+    "name": "INPUT_VEH_GUN_DOWN",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 286,
+    "name": "INPUT_VEH_LOOK_LEFT",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 287,
+    "name": "INPUT_VEH_LOOK_RIGHT",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 288,
+    "name": "INPUT_REPLAY_START_STOP_RECORDING",
+    "equivalent": "F1"
+  },
+  {
+    "id": 289,
+    "name": "INPUT_REPLAY_START_STOP_RECORDING_SECONDARY",
+    "equivalent": "F2"
+  },
+  {
+    "id": 290,
+    "name": "INPUT_SCALED_LOOK_LR",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 291,
+    "name": "INPUT_SCALED_LOOK_UD",
+    "equivalent": "MOUSE DOWN"
+  },
+  {
+    "id": 292,
+    "name": "INPUT_SCALED_LOOK_UP_ONLY",
+    "equivalent": ""
+  },
+  {
+    "id": 293,
+    "name": "INPUT_SCALED_LOOK_DOWN_ONLY",
+    "equivalent": ""
+  },
+  {
+    "id": 294,
+    "name": "INPUT_SCALED_LOOK_LEFT_ONLY",
+    "equivalent": ""
+  },
+  {
+    "id": 295,
+    "name": "INPUT_SCALED_LOOK_RIGHT_ONLY",
+    "equivalent": ""
+  },
+  {
+    "id": 296,
+    "name": "INPUT_REPLAY_MARKER_DELETE",
+    "equivalent": "DELETE"
+  },
+  {
+    "id": 297,
+    "name": "INPUT_REPLAY_CLIP_DELETE",
+    "equivalent": "DELETE"
+  },
+  {
+    "id": 298,
+    "name": "INPUT_REPLAY_PAUSE",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 299,
+    "name": "INPUT_REPLAY_REWIND",
+    "equivalent": "ARROW DOWN"
+  },
+  {
+    "id": 300,
+    "name": "INPUT_REPLAY_FFWD",
+    "equivalent": "ARROW UP"
+  },
+  {
+    "id": 301,
+    "name": "INPUT_REPLAY_NEWMARKER",
+    "equivalent": "M"
+  },
+  {
+    "id": 302,
+    "name": "INPUT_REPLAY_RECORD",
+    "equivalent": "S"
+  },
+  {
+    "id": 303,
+    "name": "INPUT_REPLAY_SCREENSHOT",
+    "equivalent": "U"
+  },
+  {
+    "id": 304,
+    "name": "INPUT_REPLAY_HIDEHUD",
+    "equivalent": "H"
+  },
+  {
+    "id": 305,
+    "name": "INPUT_REPLAY_STARTPOINT",
+    "equivalent": "B"
+  },
+  {
+    "id": 306,
+    "name": "INPUT_REPLAY_ENDPOINT",
+    "equivalent": "N"
+  },
+  {
+    "id": 307,
+    "name": "INPUT_REPLAY_ADVANCE",
+    "equivalent": "ARROW RIGHT"
+  },
+  {
+    "id": 308,
+    "name": "INPUT_REPLAY_BACK",
+    "equivalent": "ARROW LEFT"
+  },
+  {
+    "id": 309,
+    "name": "INPUT_REPLAY_TOOLS",
+    "equivalent": "T"
+  },
+  {
+    "id": 310,
+    "name": "INPUT_REPLAY_RESTART",
+    "equivalent": "R"
+  },
+  {
+    "id": 311,
+    "name": "INPUT_REPLAY_SHOWHOTKEY",
+    "equivalent": "K"
+  },
+  {
+    "id": 312,
+    "name": "INPUT_REPLAY_CYCLEMARKERLEFT",
+    "equivalent": "["
+  },
+  {
+    "id": 313,
+    "name": "INPUT_REPLAY_CYCLEMARKERRIGHT",
+    "equivalent": "]"
+  },
+  {
+    "id": 314,
+    "name": "INPUT_REPLAY_FOVINCREASE",
+    "equivalent": "NUMPAD+"
+  },
+  {
+    "id": 315,
+    "name": "INPUT_REPLAY_FOVDECREASE",
+    "equivalent": "NUMPAD-"
+  },
+  {
+    "id": 316,
+    "name": "INPUT_REPLAY_CAMERAUP",
+    "equivalent": "PAGE UP"
+  },
+  {
+    "id": 317,
+    "name": "INPUT_REPLAY_CAMERADOWN",
+    "equivalent": "PAGE DOWN"
+  },
+  {
+    "id": 318,
+    "name": "INPUT_REPLAY_SAVE",
+    "equivalent": "F5"
+  },
+  {
+    "id": 319,
+    "name": "INPUT_REPLAY_TOGGLETIME",
+    "equivalent": "C"
+  },
+  {
+    "id": 320,
+    "name": "INPUT_REPLAY_TOGGLETIPS",
+    "equivalent": "V"
+  },
+  {
+    "id": 321,
+    "name": "INPUT_REPLAY_PREVIEW",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 322,
+    "name": "INPUT_REPLAY_TOGGLE_TIMELINE",
+    "equivalent": "ESC"
+  },
+  {
+    "id": 323,
+    "name": "INPUT_REPLAY_TIMELINE_PICKUP_CLIP",
+    "equivalent": "X"
+  },
+  {
+    "id": 324,
+    "name": "INPUT_REPLAY_TIMELINE_DUPLICATE_CLIP",
+    "equivalent": "C"
+  },
+  {
+    "id": 325,
+    "name": "INPUT_REPLAY_TIMELINE_PLACE_CLIP",
+    "equivalent": "V"
+  },
+  {
+    "id": 326,
+    "name": "INPUT_REPLAY_CTRL",
+    "equivalent": "LEFT CTRL"
+  },
+  {
+    "id": 327,
+    "name": "INPUT_REPLAY_TIMELINE_SAVE",
+    "equivalent": "F5"
+  },
+  {
+    "id": 328,
+    "name": "INPUT_REPLAY_PREVIEW_AUDIO",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 329,
+    "name": "INPUT_VEH_DRIVE_LOOK",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 330,
+    "name": "INPUT_VEH_DRIVE_LOOK2",
+    "equivalent": "RIGHT MOUSE BUTTON"
+  },
+  {
+    "id": 331,
+    "name": "INPUT_VEH_FLY_ATTACK2",
+    "equivalent": "RIGHT MOUSE BUTTON"
+  },
+  {
+    "id": 332,
+    "name": "INPUT_RADIO_WHEEL_UD",
+    "equivalent": "MOUSE DOWN"
+  },
+  {
+    "id": 333,
+    "name": "INPUT_RADIO_WHEEL_LR",
+    "equivalent": "MOUSE RIGHT"
+  },
+  {
+    "id": 334,
+    "name": "INPUT_VEH_SLOWMO_UD",
+    "equivalent": "SCROLLWHEEL DOWN"
+  },
+  {
+    "id": 335,
+    "name": "INPUT_VEH_SLOWMO_UP_ONLY",
+    "equivalent": "SCROLLWHEEL UP"
+  },
+  {
+    "id": 336,
+    "name": "INPUT_VEH_SLOWMO_DOWN_ONLY",
+    "equivalent": "SCROLLWHEEL DOWN"
+  },
+  {
+    "id": 337,
+    "name": "INPUT_VEH_HYDRAULICS_CONTROL_TOGGLE",
+    "equivalent": "X"
+  },
+  {
+    "id": 338,
+    "name": "INPUT_VEH_HYDRAULICS_CONTROL_LEFT",
+    "equivalent": "A"
+  },
+  {
+    "id": 339,
+    "name": "INPUT_VEH_HYDRAULICS_CONTROL_RIGHT",
+    "equivalent": "D"
+  },
+  {
+    "id": 340,
+    "name": "INPUT_VEH_HYDRAULICS_CONTROL_UP",
+    "equivalent": "LEFT SHIFT"
+  },
+  {
+    "id": 341,
+    "name": "INPUT_VEH_HYDRAULICS_CONTROL_DOWN",
+    "equivalent": "LEFT CTRL"
+  },
+  {
+    "id": 342,
+    "name": "INPUT_VEH_HYDRAULICS_CONTROL_LR",
+    "equivalent": "D"
+  },
+  {
+    "id": 343,
+    "name": "INPUT_VEH_HYDRAULICS_CONTROL_UD",
+    "equivalent": "LEFT CTRL"
+  },
+  {
+    "id": 344,
+    "name": "INPUT_SWITCH_VISOR",
+    "equivalent": "F11"
+  },
+  {
+    "id": 345,
+    "name": "INPUT_VEH_MELEE_HOLD",
+    "equivalent": "X"
+  },
+  {
+    "id": 346,
+    "name": "INPUT_VEH_MELEE_LEFT",
+    "equivalent": "LEFT MOUSE BUTTON"
+  },
+  {
+    "id": 347,
+    "name": "INPUT_VEH_MELEE_RIGHT",
+    "equivalent": "RIGHT MOUSE BUTTON"
+  },
+  {
+    "id": 348,
+    "name": "INPUT_MAP_POI",
+    "equivalent": "SCROLLWHEEL BUTTON (PRESS)"
+  },
+  {
+    "id": 349,
+    "name": "INPUT_REPLAY_SNAPMATIC_PHOTO",
+    "equivalent": "TAB"
+  },
+  {
+    "id": 350,
+    "name": "INPUT_VEH_CAR_JUMP",
+    "equivalent": "E"
+  },
+  {
+    "id": 351,
+    "name": "INPUT_VEH_ROCKET_BOOST",
+    "equivalent": "E"
+  },
+  {
+    "id": 352,
+    "name": "INPUT_VEH_FLY_BOOST",
+    "equivalent": "LEFT SHIFT"
+  },
+  {
+    "id": 353,
+    "name": "INPUT_VEH_PARACHUTE",
+    "equivalent": "SPACEBAR"
+  },
+  {
+    "id": 354,
+    "name": "INPUT_VEH_BIKE_WINGS",
+    "equivalent": "X"
+  },
+  {
+    "id": 355,
+    "name": "INPUT_VEH_FLY_BOMB_BAY",
+    "equivalent": "E"
+  },
+  {
+    "id": 356,
+    "name": "INPUT_VEH_FLY_COUNTER",
+    "equivalent": "E"
+  },
+  {
+    "id": 357,
+    "name": "INPUT_VEH_TRANSFORM",
+    "equivalent": "X"
+  },
+  {
+    "id": 358,
+    "name": "INPUT_QUAD_LOCO_REVERSE",
+    "equivalent": ""
+  },
+  {
+    "id": 359,
+    "name": "INPUT_RESPAWN_FASTER",
+    "equivalent": ""
+  },
+  {
+    "id": 360,
+    "name": "INPUT_HUDMARKER_SELECT",
+    "equivalent": ""
+  },
+  {
+    "id": 361,
+    "name": "INPUT_EAT_SNACK",
+    "equivalent": ""
+  },
+  {
+    "id": 362,
+    "name": "INPUT_USE_ARMOR",
+    "equivalent": ""
+  }
+]

@@ -3,7 +3,7 @@ This file contains unit tests for the application models.
 """
 
 
-from models import IdAndImageLink, BlipColor, PedModel
+from models import Control, IdAndImageLink, BlipColor, PedModel
 
 
 def test_id_and_image_link_creation():
@@ -37,3 +37,13 @@ def test_ped_model_creation():
     assert ped.name == "player_zero"
     assert ped.hash == "0x92A27487"
     assert ped.image_link == "https://example.com/ped.png"
+
+
+def test_control_creation():
+    """
+    Test the Control creation.
+    """
+    control = Control(id=235, name="INPUT_JUMP", equivalent="Space Key")
+    assert control.id == 235
+    assert control.name == "INPUT_JUMP"
+    assert control.equivalent == "Space Key"
