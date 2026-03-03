@@ -43,6 +43,9 @@ make build-up-d-prod
 
 ## 🔄 Updates
 
+### 🔄 v0.1.1 — March 3, 2026
+- 📝 Added the roadmap to the README files.
+
 ### 🔄 v0.1.0 — February 17, 2026
 - ✅ Added unit tests and verified its coverage.
 

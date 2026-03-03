@@ -43,6 +43,9 @@ make build-up-d-prod
 
 ## 🔄 Mises à jour
 
+### 🔄 v0.1.1 — 3 mars, 2026
+- 📝 Ajout du plan de développement dans les fichiers README.
+
 ### 🔄 v0.1.0 — 17 février 2026
 - ✅ Ajout de tests unitaires et vérification de leur couverture.
 
