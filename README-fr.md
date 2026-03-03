@@ -1,6 +1,6 @@
 # ⚙️ RAGE Data API
 
-![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.2-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10%2B-yellow.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.128.0-green.svg)
 
@@ -43,7 +43,11 @@ make build-up-d-prod
 
 ## 🔄 Mises à jour
 
-### 🔄 v0.1.1 — 3 mars, 2026
+### 🔄 v0.1.2 — 4 mars 2026
+- ✨ Implémentation des opérations de lecture pour contrôles de jeu filtrés
+- 📝 Ajout de la documentation pour le tag Health.
+
+### 🔄 v0.1.1 — 3 mars 2026
 - 📝 Ajout du plan de développement dans les fichiers README.
 
 ### 🔄 v0.1.0 — 17 février 2026

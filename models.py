@@ -45,6 +45,25 @@ class Marker(IdAndImageLink):
 
 
 @dataclass
+class Control:
+    """
+    Control model.
+    """
+    id: int = Field(
+        description="Unique identifier for the control",
+        json_schema_extra={"example": 235},
+    )
+    name: str = Field(
+        description="Name of the control",
+        json_schema_extra={"example": "INPUT_JUMP"},
+    )
+    equivalent: str = Field(
+        description="Equivalent control in keyboard or mouse button",
+        json_schema_extra={"example": "Space Key"},
+    )
+
+
+@dataclass
 class PedModel:
     """
     Ped model model.

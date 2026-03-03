@@ -9,22 +9,32 @@ from fastapi import Depends
 from fastapi import FastAPI
 
 from import_data.importer import Importer, import_weapons
-from models import BlipModel, BlipColor, Marker, PedModel, Weapon
-from services import get_blip_colors, get_blip_models, get_markers, get_ped_models, get_weapons
+from models import BlipModel, BlipColor, Control, Marker, PedModel, Weapon
+from services import get_blip_colors, get_blip_models, get_controls, get_markers, get_ped_models, get_weapons
 
 
 tags_metadata = [
     {
-        "name": "Models",
-        "description": "Operations with GTA5 models. Retrieve various model data.",
+        "name": "GTA5",
+        "description": "Operations with Grand Theft Auto V models. Retrieve various model data.",
+    },
+    {
+        "name": "Health",
+        "description": "Operations related to server health and status checks.",
     },
 ]
 
+with open("README.md", "r", encoding="utf-8") as f:
+    readme_content = f.read()
+    lines = readme_content.split('\n')
+    roadmap_index = next((i for i, line in enumerate(lines) if "🎯 Roadmap" in line), 0)
+    readme_content = '\n'.join(lines[roadmap_index:])
+
 app = FastAPI(
-    title="RAGE Data API",
-    description="An API to access RAGE data such as blip models, colors, markers, ped models, and weapons.",
-    summary="An API for RAGE data retrieval.",
-    version="0.1.1",
+    title="⚙️ RAGE Data API",
+    summary="RAGE Data API allows you to retrieve useful information from video games using the RAGE game engine. This information helps, in particular, mod developers to simplify their research.",
+    description=readme_content,
+    version="0.1.2",
     openapi_tags=tags_metadata,
     docs_url="/",
     redoc_url="/redoc",
@@ -33,7 +43,7 @@ app = FastAPI(
 
 @app.get(
     "/blip_colors",
-    tags=["Models"],
+    tags=["GTA5"],
     summary="Retrieve blip colors data",
     description="Fetches and returns the JSON data for blip colors models.",
 )
@@ -46,7 +56,7 @@ def read_blip_colors(result = Depends(get_blip_colors)) -> List[BlipColor]:
 
 @app.get(
     "/blip_models",
-    tags=["Models"],
+    tags=["GTA5"],
     summary="Retrieve blip models data",
     description="Fetches and returns the JSON data for blip models.",
 )
@@ -58,8 +68,21 @@ def read_blip_models(result = Depends(get_blip_models)) -> List[BlipModel]:
 
 
 @app.get(
+    "/controls",
+    tags=["GTA5"],
+    summary="Retrieve controls data",
+    description="Fetches and returns the JSON data for controls.",
+)
+def read_controls(result = Depends(get_controls)) -> List[Control]:
+    """
+    Endpoint to get the controls.
+    """
+    return result
+
+
+@app.get(
     "/markers",
-    tags=["Models"],
+    tags=["GTA5"],
     summary="Retrieve markers data",
     description="Fetches and returns the JSON data for markers.",
 )
@@ -72,7 +95,7 @@ def read_markers(result = Depends(get_markers)) -> List[Marker]:
 
 @app.get(
     "/ped_models",
-    tags=["Models"],
+    tags=["GTA5"],
     summary="Retrieve ped models data",
     description="Fetches and returns the JSON data for ped models.",
 )
@@ -85,7 +108,7 @@ def read_ped_models(result = Depends(get_ped_models)) -> List[PedModel]:
 
 @app.get(
     "/weapons",
-    tags=["Models"],
+    tags=["GTA5"],
     summary="Retrieve weapons data",
     description="Fetches and returns the JSON data for weapons models.",
 )
