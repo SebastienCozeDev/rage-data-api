@@ -43,6 +43,9 @@ make build-up-d-prod
 
 ## 🔄 Mises à jour
 
+### 🔄 v0.1.2 — WIP
+- 📝 Ajout de la documentation pour le tag Health.
+
 ### 🔄 v0.1.1 — 3 mars, 2026
 - 📝 Ajout du plan de développement dans les fichiers README.
 
