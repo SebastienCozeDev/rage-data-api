@@ -5,7 +5,7 @@ This file contains all services for the application.
 import json
 from typing import List, Union
 from fastapi import Depends, status, HTTPException
-from models import BlipColor, BlipModel, Marker, PedModel, Weapon
+from models import BlipColor, BlipModel, Control, Marker, PedModel, Weapon
 
 
 def get_model(model_name: str, filters) -> Union[List[BlipModel], List[BlipColor], List[Marker], List[PedModel], List[Weapon]]:
@@ -44,6 +44,16 @@ def get_model_with_name(name: str = None):
     return filters
 
 
+def get_model_with_equivalent(equivalent: str = None):
+    """
+    Get a model with equivalent.
+    """
+    filters = {}
+    if equivalent is not None:
+        filters["equivalent"] = equivalent
+    return filters
+
+
 def get_model_with_hash(hash: str = None):
     """
     Get a model with hash.
@@ -76,6 +86,24 @@ def get_blip_models(filters = Depends(get_model_with_id)) -> List[BlipModel]:
     Get filtered or not blip models.
     """
     return get_model("blip_models", filters)
+
+
+def get_controls(
+    id_filter = Depends(get_model_with_id),
+    name_filter = Depends(get_model_with_name),
+    equivalent_filter = Depends(get_model_with_equivalent),
+) -> List[Control]:
+    """
+    Get filtered or not controls.
+    """
+    return get_model(
+        "controls",
+        {
+            **id_filter,
+            **name_filter,
+            **equivalent_filter,
+        },
+    )
 
 
 def get_markers(filters = Depends(get_model_with_id)) -> List[Marker]:

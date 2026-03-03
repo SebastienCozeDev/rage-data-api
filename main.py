@@ -9,8 +9,8 @@ from fastapi import Depends
 from fastapi import FastAPI
 
 from import_data.importer import Importer, import_weapons
-from models import BlipModel, BlipColor, Marker, PedModel, Weapon
-from services import get_blip_colors, get_blip_models, get_markers, get_ped_models, get_weapons
+from models import BlipModel, BlipColor, Control, Marker, PedModel, Weapon
+from services import get_blip_colors, get_blip_models, get_controls, get_markers, get_ped_models, get_weapons
 
 
 tags_metadata = [
@@ -63,6 +63,19 @@ def read_blip_colors(result = Depends(get_blip_colors)) -> List[BlipColor]:
 def read_blip_models(result = Depends(get_blip_models)) -> List[BlipModel]:
     """
     Endpoint to get the blip models.
+    """
+    return result
+
+
+@app.get(
+    "/controls",
+    tags=["Models"],
+    summary="Retrieve controls data",
+    description="Fetches and returns the JSON data for controls.",
+)
+def read_controls(result = Depends(get_controls)) -> List[Control]:
+    """
+    Endpoint to get the controls.
     """
     return result
 
