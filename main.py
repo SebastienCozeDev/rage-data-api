@@ -18,6 +18,10 @@ tags_metadata = [
         "name": "Models",
         "description": "Operations with GTA5 models. Retrieve various model data.",
     },
+    {
+        "name": "Health",
+        "description": "Operations related to server health and status checks.",
+    },
 ]
 
 app = FastAPI(
