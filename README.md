@@ -1,6 +1,6 @@
 # ⚙️ RAGE Data API
 
-![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10%2B-yellow.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.128.0-green.svg)
 
@@ -27,7 +27,24 @@ make build-up
 make build-up-d-prod
 ```
 
+## 🎯 Roadmap
+
+| Feature                                           | Status          |
+|---------------------------------------------------|-----------------|
+| Add important GTA5 data                           | ✅ Done        |
+| Add all GTA5 data                                 | 🔄 In progress |
+| Replace JSON files with PostgreSQL                | ⏳ Planned     |
+| JWT Authentication                                | ⏳ Planned     |
+| User roles                                        | ⏳ Planned     |
+| JSON file import for administrators               | ⏳ Planned     |
+| CRUD operations for all models (administrators)   | ⏳ Planned     |
+| User modification/creation requests               | ⏳ Planned     |
+| Markdown page creation                            | ⏳ Planned     |
+
 ## 🔄 Updates
+
+### 🔄 v0.1.1 — March 3, 2026
+- 📝 Added the roadmap to the README files.
 
 ### 🔄 v0.1.0 — February 17, 2026
 - ✅ Added unit tests and verified its coverage.

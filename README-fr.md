@@ -1,6 +1,6 @@
 # ⚙️ RAGE Data API
 
-![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10%2B-yellow.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.128.0-green.svg)
 
@@ -27,7 +27,24 @@ make build-up
 make build-up-d-prod
 ```
 
+## 🎯 Plan de développement
+
+| Fonctionnalité                                                     | Statut        |
+|--------------------------------------------------------------------|---------------|
+| Ajout des données importantes de GTA5                              | ✅ Fait      |
+| Ajout de toutes les données de GTA5                                | 🔄 En cours  |
+| Suppression des fichiers JSON au profil de PostgreSQL              | ⏳ Prévu     |
+| Authentification JWT                                               | ⏳ Prévu     |
+| Rôle des utilisateurs                                              | ⏳ Prévu     |
+| Import de fichiers JSON (admin)                                    | ⏳ Prévu     |
+| Opérations CRUD pour tous les modèles (admins)                     | ⏳ Prévu     |
+| Demande de modification/créations par les utilisateurs             | ⏳ Prévu     |
+| Création de page en Markdown                                       | ⏳ Prévu     |
+
 ## 🔄 Mises à jour
+
+### 🔄 v0.1.1 — 3 mars, 2026
+- 📝 Ajout du plan de développement dans les fichiers README.
 
 ### 🔄 v0.1.0 — 17 février 2026
 - ✅ Ajout de tests unitaires et vérification de leur couverture.
