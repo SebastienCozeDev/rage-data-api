@@ -1,6 +1,6 @@
 # ⚙️ RAGE Data API
 
-![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)
+![Version](https://img.shields.io/badge/version-0.1.1-blue.svg)
 ![Python](https://img.shields.io/badge/python-3.10%2B-yellow.svg)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.128.0-green.svg)
 
